@@ -16,23 +16,23 @@
 
 	////////////////////////////////////////////////////
 	// 02. Mobile Menu Js
-	$('#mobile-menu').meanmenu({
-		meanMenuContainer: '.mobile-menu',
-		meanScreenWidth: "991",
-		meanExpand: ['<i class="fal fa-plus"></i>'],
-	});
+	// $('#mobile-menu').meanmenu({
+	// 	meanMenuContainer: '.mobile-menu',
+	// 	meanScreenWidth: "991",
+	// 	meanExpand: ['<i class="fal fa-plus"></i>'],
+	// });
 
 
 	////////////////////////////////////////////////////
 	// 03. Sidebar Js
-	$(".offcanvas-open-btn").on("click", function () {
-		$(".offcanvas__area").addClass("offcanvas-opened");
-		$(".body-overlay").addClass("opened");
-	});
-	$(".offcanvas-close-btn").on("click", function () {
-		$(".offcanvas__area").removeClass("offcanvas-opened");
-		$(".body-overlay").removeClass("opened");
-	});
+	// $(".offcanvas-open-btn").on("click", function () {
+	// 	$(".offcanvas__area").addClass("offcanvas-opened");
+	// 	$(".body-overlay").addClass("opened");
+	// });
+	// $(".offcanvas-close-btn").on("click", function () {
+	// 	$(".offcanvas__area").removeClass("offcanvas-opened");
+	// 	$(".body-overlay").removeClass("opened");
+	// });
 
 
 	////////////////////////////////////////////////////
@@ -387,10 +387,10 @@
 
 	////////////////////////////////////////////////////
 	// 21. Counter Js
-	$('.counter').counterUp({
-		delay: 10,
-		time: 1000
-	});
+	// $('.counter').counterUp({
+	// 	delay: 10,
+	// 	time: 1000
+	// });
 
 	////////////////////////////////////////////////////
 	// 22. Parallax Js

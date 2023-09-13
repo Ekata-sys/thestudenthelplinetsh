@@ -2,88 +2,86 @@ import React from 'react'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import {Link} from 'react-router-dom'
 function SubjectExperties() {
-    const options = {
-        loop: true,
-        autoplay: true,
-        dots: false,
-        nav: false,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-                margin:10
+
+
+    const subject = {
+        loop:true,
+        margin:25,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:false,
+                loop:false
             },
-            600: {
-                items: 2,
-                margin:10
+            600:{
+                items:3,
+                nav:false,
+                loop:false
             },
-            1000: {
-                items: 3,
-                margin:10
-            },
-            1200:{
-                items: 3,
-                margin: 40,
+            1000:{
+                items:3,
+                nav:true,
+                loop:false
             }
         }
     };
   
   return (
   <>
-  <section className='why-sec'>
-                <div className='container'>
+  <section className='experties pad60'>
+             
                 <div className="container mt-4" id='reviews'>
                 <div className="text-center mb-4 py-5">
-                <h3>Our Subject Expertise</h3>
+                <h3 className='text-white'>Our Subject Expertise</h3>
                 </div>
            
-                <OwlCarousel className='owl-theme' {...options}>
-    <div className='item'>
-    <div className="r-card p-xl-4">
-                                <div>
-                                <img src='./assets/img/review1.webp' alt="" className='' />
-                                <p className='fs-5 fw-bold'>Sumit</p>
-                                <p>I received my phd dissertation on time and received average marks. The dissertation was well designed in excellent perspective to get the marks you need and with excellent vocabulary was used. Highly recommended to get help from Dissertation Helper, they have team of professional dissertation writers.</p>
-                                </div>
-                                <div className='h-100 d-flex flex-column justify-content-end'>
-                            <div className='star'><i  className="fa-solid fa-star"></i><i  className="fa-solid fa-star"></i><i  className="fa-solid fa-star"></i><i  className="fa-solid fa-star"></i><i  className="fa-solid fa-star"></i></div>
-                                </div>
-                            </div>
-        
-    </div>
-    <div className='item'>
-    <div className="r-card p-xl-4">
-                                <div>
-                                <img src='./assets/img/review2.webp' alt="" className='' />
-                                <p className='fs-5 fw-bold'>William</p>
-                                <p>I had an amazing experience with their dissertation writing service and I'm delighted with the outcome. I'm confident to recommend them on a short notice as I have been awarded good grades in my semester due to the timely delivery of my dissertation to me.</p>
-                                </div>
-                                <div className='h-100 d-flex flex-column justify-content-end'>
-                            <div className='star'><i  className="fa-solid fa-star"></i><i  className="fa-solid fa-star"></i><i  className="fa-solid fa-star"></i><i  className="fa-solid fa-star"></i><i  className="fa-solid fa-star"></i></div>
-                                </div>
-                            </div>
-        
-                              
-        
-    </div>
-    <div className='item'>
-    <div className="r-card p-xl-4">
-                                <div>
-                                <img src='./assets/img/review3.webp' alt="" className='' />
-                                <p className='fs-5 fw-bold'>Amenda</p>
-                                <p>Dissertation Helper has been a trustworthy aid in my university tasks and it is the only reliable website with reasonable prices for their services! I am sincerely appreciative of the great work done by you all! Appreciate it!</p>
-                                </div>
-                                <div className='h-100 d-flex flex-column justify-content-end'>
-                            <div className='star'><i  className="fa-solid fa-star"></i><i  className="fa-solid fa-star"></i><i  className="fa-solid fa-star"></i><i  className="fa-solid fa-star"></i><i  className="fa-solid fa-star"></i></div>
-                                </div>
-                            </div>
-        
-    </div>
+                <OwlCarousel className='owl-theme' {...subject}>
+                <div className="item" data-aos="flip-left">
+<span className="se-img"><img src="./assets/img/imgicon/it.webp" alt="It Assignment" /></span>
+<h5><Link to="#">IT/Computer</Link></h5>
+<p>Computer Science is a systematic study of designing and analysis of algorithms that helps in solving programs determining the performance of computer hardware and software. The theoretical aspects and their practical application pave an easy way for human interaction with technology. Learning this discipline may sound like a hard endeavor for many students? However, your willingness to invest time in it may solve it all. For more contact us.</p>
+</div>
+<div className="item" data-aos="flip-left">
+<span className="se-img"> <img src="./assets/img/imgicon/accounting.webp" alt="Accounting Assignment"/> </span>
+<h5><Link to="#">Accounting and Finance</Link></h5>
+<p>Accounting solves the real-life problems of businesses regardless of their size and helps in making efficient cost planning decisions and measuring the overall economic performance of a company. Accounting relates to information analysis for different aspects of business whereas finance solely concerns a business' monetary funds. Writing for such a discipline and channelizing our energy might seem a waste. But we have got you covered with our experts’ team working round the clock. </p></div>
+<div className="item" data-aos="flip-left">
+<span className="se-img"> <img src="./assets/img/imgicon/statistics.webp" alt="Marketing Assignment"/> </span>
+<h5><Link to="#">Marketing</Link></h5>
+<p>Marketing is the process of flash any service or commodity to get a comparative advantage in the marketplace. It is among the most essential management roles since it assists to create new consumers and provide importance to the firm. Students are given marketing assignments so that they could reflect carefully about the importance of marketing as a discipline, method techniques employed by large businesses, and how to upgrade their abilities as marketing professionals.</p>
+</div>
+<div className="item" data-aos="flip-left">
+<span className="se-img"> <img src="./assets/img/imgicon/economics.webp" alt="Economics Assignment"/> </span>
+<h5><Link to="#">Economics</Link></h5>
+<p>In the words of Adam Smith, “Economics is an inquiry into the nature and causes of the wealth of nations.” The scope of study expanded over time and was divided into two branches namely macroeconomics and microeconomics. The former deals with how the overall economy that includes the market and other systems operates on a large scale along with the government as a major sector. if you are looking for help with economics assignment, contact us now.</p>
+</div>
+<div className="item" data-aos="flip-left">
+<span className="se-img"> <img src="./assets/img/imgicon/engineering.webp" alt="Engineering Assignment"/> </span>
+<h5><Link to="#">Engineering</Link></h5>
+<p>Building machines, complex structures, and creating an infrastructure requires the application of systematic scientific principles. The scientific study that uses theories of science and mathematics to reach logical conclusions for practical application in the real world are taught in Engineering. Be it mechanical, chemical, civil, electrical, management, geotechnical, or other hundreds of different subcategories of engineering under each branch, we are here to assure you 24x7.</p>
+</div>
+<div className="item" data-aos="flip-left">
+<span className="se-img"> <img src="./assets/img/imgicon/law.webp" alt="Law Assignment"/> </span>
+<h5><Link to="#">Law</Link></h5>
+<p>As a discipline of study, Law denotes rules and principles that guide and keep in check unjust human behavior. As John Austin says, “Law is the command of the sovereign backed by the threat of punishment.” Law is not just a subject but it is an entire pool of discipline. There are diverse fields among law like Property law, International law, Criminal procedure, Civil procedure, The Law of Tort, etc. Be it any field, we have Ph.D. holders with the best of experience to help you with your task.</p>
+</div>
+<div className="item" data-aos="flip-left">
+<span className="se-img"> <img src="./assets/img/imgicon/management.webp" alt="Management Assignment"/> </span>
+<h5><Link to="#">Management</Link></h5>
+<p>Management is what we do and how we do it to generate the desired result. It revolves around four pillars of planning, organizing, leading, and controlling. The efficient and effective use of resources to get the desired objective is the prime focus of Management. It involves coming together of different resources like human resources, technical resources, natural resources, etc working towards a common objective in the organization. Nonetheless, we have experts who could you.</p>
+</div>
+<div className="item" data-aos="flip-left">
+<span className="se-img"> <img src="./assets/img/imgicon/nursing.webp" alt="Nursing Assignment"/> </span>
+<h5><Link to="#">Nursing</Link></h5>
+<p>Nursing is a discipline that specializes in complete health advancement, illness control, and providing holistic care to those who are mentally and physically unwell. It also includes campaigns and support for a secure environment to assist the community to prosper. Many students benefit from a Nursing assignment to grasp new regulations and evaluate current ones to master how to run the public health service appropriately. So that's why nursing is regarded as key area of study.</p>
+</div>
 
 
 </OwlCarousel>
-            </div>
+           
                 </div>
             </section>
 </>

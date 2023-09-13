@@ -1,5 +1,5 @@
 import React from 'react'
-import Form from '../Form'
+// import Form from '../Form'
 import Slider from "react-slick"
 function Hero() {
     var brand = {
@@ -76,7 +76,7 @@ function Hero() {
                   <div className="tp-hero__img">
                      {/* <img src="assets/img/hero/hero-img-1.png" alt="hero" /> */}
                      <div className='form d-flex justify-content-center pb-5 w-74 ps-0 ps-lg-5 ms-0 ms-lg-5'>
-                <Form/>
+                {/* <Form/> */}
                 <br/>
               </div>
                   </div>
@@ -115,8 +115,9 @@ function Hero() {
                   <div className="tp-brand__box white-bg pt-40">
                      <div className="row">
                         <div className="col-xl-4 col-md-6">
-                           <h3>Tutorgo</h3>
-                           <p>Join over 1490+ partners around the world</p>
+                        <p>Trusted by</p>
+                           <h3>500K+ Student's Of</h3>
+                          
                         </div>
                         <div className="col-xl-4 col-md-6">
                            <span>
@@ -135,25 +136,109 @@ function Hero() {
                         <Slider {...brand}>
                             
                               <div className="tp-brand__item">
-                                 <img src="assets/img/brand/brand-1.png" alt="" />
+                                 <img src="assets/img/brand/c1.webp" alt="" />
                               </div>
                               <div className="tp-brand__item">
-                                 <img src="assets/img/brand/brand-2.png" alt="" />
+                                 <img src="assets/img/brand/c2.webp" alt="" />
                               </div>
                               <div className="tp-brand__item">
-                                 <img src="assets/img/brand/brand-3.png" alt="" />
+                                 <img src="assets/img/brand/c3.webp" alt="" />
                               </div>
                               <div className="tp-brand__item">
-                                 <img src="assets/img/brand/brand-4.png" alt="" />
+                                 <img src="assets/img/brand/c4.webp" alt="" />
                               </div>
                               <div className="tp-brand__item">
-                                 <img src="assets/img/brand/brand-5.png" alt="" />
+                                 <img src="assets/img/brand/c5.webp" alt="" />
                               </div>
                               <div className="tp-brand__item">
-                                 <img src="assets/img/brand/brand-6.png" alt="" />
+                                 <img src="assets/img/brand/c6.webp" alt="" />
                               </div>
                               <div className="tp-brand__item">
-                                 <img src="assets/img/brand/brand-2.png" alt="" />
+                                 <img src="assets/img/brand/c7.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/c8.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/c9.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/c10.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/c11.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/c12.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/c13.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/c14.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/c15.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/c16.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/c18.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/uni1.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/uni2.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/uni3.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/uni4.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/uni5.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/trinity.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/stockport.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/richard.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/mist.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/kings.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/kentucky.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/john-show.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/imperial.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/greenwich.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/central-bedfordshire.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/cambridge.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/ashton-college-in-uk.webp" alt="" />
+                              </div>
+                              <div className="tp-brand__item">
+                                 <img src="assets/img/brand/ashford-college-in-uk.webp" alt="" />
                               </div>
                                </Slider>
                            </div>

@@ -13,26 +13,10 @@ function Footer() {
                   <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                      <div className="footer__widget mb-50 footer-col-1">
                         <div className="footer__widget-logo mb-30">
-                           <Link href="index.html"><img src="assets/img/logo/logo.png" alt="" /></Link>
-                        </div>
-                        <div className="footer__widget-content">
-                           <p>Aut cum mollitia reprehenderit.
-                              Eos cumque dicta adipisci amet
-                              architecto culpa.</p>
-                           <div className="footer__social">
-                              <span><Link to="#"><i className="fab fa-facebook-f"></i></Link></span>
-                              <span><Link to="#" className="yt"><i className="fab fa-youtube"></i></Link></span>
-                              <span><Link to="#" className="tw"><i className="fab fa-twitter"></i></Link></span>
-                           </div>
-                           
-                        </div>
-                     </div>
-                  </div>
-                  <div className="col-xxl-2 col-xl-2 col-lg-3 col-6">
-                     <div className="footer__widget mb-50 footer-col-2">
                         <h3 className="footer__widget-title">GET TO KNOW US</h3>
+                        </div>
                         <div className="footer__widget-content">
-                           <ul>
+                        <ul>
                            <li><Link to="#">How It Works</Link></li>
                            <li><Link to="#">Contact Us</Link></li>
                               <li><Link to="#">About Us</Link></li>
@@ -50,40 +34,53 @@ function Footer() {
                         </div>
                      </div>
                   </div>
+                  <div className="col-xxl-2 col-xl-2 col-lg-3 col-6">
+                     <div className="footer__widget mb-50 footer-col-2">
+                        <h3 className="footer__widget-title">SERVICES</h3>
+                        <div className="footer__widget-content">
+                           <ul>
+                           <li><Link to="#">Assignment</Link></li>
+                           <li><Link to="#">Dissertation</Link></li>
+                              <li><Link to="#">Coursework</Link></li>
+                              <li><Link to="#">Homework</Link></li>
+                              <li><Link to="#">Thesis</Link></li>
+                              <li><Link to="#">Essay</Link></li>
+                              <li><Link to="#">Tafe</Link></li>
+                              <li><Link to="#">Proofreading</Link></li>
+                              <li><Link to="#">Case Studies</Link></li>
+                              <li><Link to="#">Research Paper</Link></li>
+                              <li><Link to="#">Referencing</Link></li>
+                              <li><Link to="#">Free Samples</Link></li>
+                            
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
                   <div className="col-xxl-3 col-xl-3 col-lg-3 col-6">
                      <div className="footer__widget mb-50 footer-col-3">
                         <h3 className="footer__widget-title">Courses</h3>
                         <div className="footer__widget-content">
-                           <ul>
-                              <li><Link to="#">Masters Degree</Link></li>
-                              <li><Link to="#">Post GraduateU</Link></li>
-                              <li><Link to="#">Ndergraduate</Link></li>
+                        <ul>
+                           <li><Link to="#">Computer Science</Link></li>
+                           <li><Link to="#">Accounting</Link></li>
+                              <li><Link to="#">Economics</Link></li>
+                              <li><Link to="#">Management</Link></li>
+                              <li><Link to="#">Nursing</Link></li>
+                              <li><Link to="#">Marketing</Link></li>
+                              <li><Link to="#">Finance</Link></li>
+                              <li><Link to="#">Statistics</Link></li>
+                              <li><Link to="#">Law</Link></li>
+                              <li><Link to="#">Information Technology</Link></li>
+                              <li><Link to="#">University</Link></li>
+                              <li><Link to="#">Programming</Link></li>
                               <li><Link to="#">Engineering</Link></li>
-                              <li><Link to="#">Ph.D Degree</Link></li>
                            </ul>
                         </div>
                      </div>
                   </div>
 
                   <div className="col-xxl-4 col-xl-4 col-lg-3 col-md-6">
-                     <div className="footer__widget mb-50 footer-col-4">
-                        <h3 className="footer__widget-title">Sign Up for Our Newsletter</h3>
-                        <div className="footer__widget-content">
-                           <div className="footer__subscribe">
-                              <p>Receive weekly newsletter with educational,
-                                 popular books and much more!</p>
-                              <form action="#">
-                                 <div className="footer__subscribe-box">
-                                    <div className="footer__subscribe-input">
-                                       <input type="email" placeholder="Email address" />
-                                    </div>
-                                    <button className="footer-sub-btn" type="submit">Subscribe</button>
-                                 </div>
-                              </form>
-                           </div>
-                        </div>
-                     </div>
-                     <div className="footer__widget mb-50 footer-col-1">
+                  <div className="footer__widget mb-50 footer-col-1">
                         <div className="footer__widget-logo mb-30">
                            <Link href="index.html"><img src="assets/img/logo/logo.png" alt="" /></Link>
                         </div>
@@ -95,10 +92,29 @@ function Footer() {
                               <span><Link to="#"><i className="fab fa-facebook-f"></i></Link></span>
                               <span><Link to="#" className="yt"><i className="fab fa-youtube"></i></Link></span>
                               <span><Link to="#" className="tw"><i className="fab fa-twitter"></i></Link></span>
+                              <span><Link to="#" className="tw"><i className="fab fa-pinterest"></i></Link></span>
+                              <span><Link to="#" className="tw"><i className="fab fa-instagram"></i></Link></span>
                            </div>
                            
                         </div>
                      </div>
+                     <div className="footer__widget mb-50 footer-col-4">
+                        <h3 className="footer__widget-title">Special Offers</h3>
+                        <div className="footer__widget-content">
+                           <div className="footer__subscribe">
+                              <p>Subscribe to avail our special offers</p>
+                              <form action="#">
+                                 <div className="footer__subscribe-box">
+                                    <div className="footer__subscribe-input">
+                                       <input type="email" placeholder="Email address" />
+                                    </div>
+                                    <button className="footer-sub-btn" type="submit">Subscribe</button>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  
                   </div>
                </div>
             </div>
@@ -106,8 +122,8 @@ function Footer() {
                <div className="row">
                   <div className="col-12">
                      <div className="footer__copyright text-center">
-                        <p> © 2022 Tutorgo, All Rights Reserved. Design By <Link
-                              to="https://themeforest.net/user/theme_pure/portfolio" target="_blank">Theme Pure</Link>
+                        <p> <Link
+                              to="#" target="_blank">Copyright © 2010-2023 The Student Helpline All rights reserved</Link>
                         </p>
                      </div>
                   </div>

@@ -55,7 +55,7 @@ function Header() {
                         <div className="tp-header__top-right d-flex justify-content-end align-items-center">
                            <div className="tp-header__account">
                               <ul>
-                                 <li><Link to="#"><i className="fal fa-user"></i>Login</Link></li>
+                                 <li><Link to="/login"><i className="fal fa-user"></i>Login</Link></li>
                                  <li>|</li>
                                  <li><Link to="#">Register</Link></li>
 

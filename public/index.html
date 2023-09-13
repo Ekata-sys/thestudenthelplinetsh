@@ -9,12 +9,12 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -70,5 +70,159 @@
    <script src="assets/js/imagesloaded-pkgd.js"></script>
    <script src="assets/js/ajax-form.js"></script> <script src="assets/js/countdown.js"></script>
    <script src="assets/js/main.js"></script>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+   <script>
+            $(document).ready(function(){
+            
+
+       
+        $(".offcanvas-open-btn").on("click", function () {
+            $(".offcanvas__area").addClass("offcanvas-opened");
+            $(".body-overlay").addClass("opened");
+        });
+        $(".offcanvas-close-btn").on("click", function () {
+            $(".offcanvas__area").removeClass("offcanvas-opened");
+            $(".body-overlay").removeClass("opened");
+        });
+
+		
+	});
+   </script>
+   <script>
+	////////////////////////////////////////////////////
+	// 04. Body overlay Js
+	$(".body-overlay").on("click", function () {
+		$(".offcanvas__area").removeClass("offcanvas-opened");
+		$(".body-overlay").removeClass("opened");
+	});
+
+   </script>
+   <script>
+    	/*****************************/
+      $(document).ready(function(){
+		$("#cd_one").hide();
+		$("#sd1").hide();
+		$("#cd_two").hide();
+		$("#sd2").hide();
+		$("#cd_three").hide();
+		$("#sd3").hide();
+		$("#cd_four").hide();
+		$("#sd4").hide();
+		$("#cd_five").hide();
+		$("#sd5").hide();
+		$("#cdd_one").hide();
+	$("#sdd1").hide();
+	$("#cdd_two").hide();
+	$("#sdd2").hide();
+	$("#cdd_three").hide();
+	$("#sdd3").hide();
+	$("#cdd_four").hide();
+	$("#sdd4").hide();
+	$("#cdd_five").hide();
+	$("#sdd5").hide();
+        $("#cd1").click(function(){
+	$("#cd1").hide();
+	$("#cd_one").show();
+	$("#sd1").show();
+	});
+	$("#cd2").click(function(){ 
+	$("#cd2").hide();
+	$("#cd_two").show();
+	$("#sd2").show();
+	});
+	$("#cd3").click(function(){
+	$("#cd3").hide();
+	$("#cd_three").show();
+	$("#sd3").show();
+	});
+	$("#cd4").click(function(){
+	$("#cd4").hide();
+	$("#cd_four").show();
+	$("#sd4").show();
+	});
+	$("#cd5").click(function(){
+	$("#cd5").hide();
+	$("#cd_five").show();
+	$("#sd5").show();
+	});
+	$("#cdd1").click(function(){
+	$("#cdd1").hide();
+	$("#cdd_one").show();
+	$("#sdd1").show();
+	});
+	$("#cd2").click(function(){
+	$("#cdd2").hide();
+	$("#cdd_two").show();
+	$("#sdd2").show();
+	});
+    $("#cdd3").click(function(){
+	$("#cdd3").hide();
+	$("#cdd_three").show();
+	$("#sdd3").show();
+	});	
+	$("#cdd4").click(function(){
+	$("#cdd4").hide();
+	$("#cdd_four").show();
+	$("#sdd4").show();
+	});
+	$("#cdd5").click(function(){
+	$("#cdd5").hide();
+	$("#cdd_five").show();
+	$("#sdd5").show();
+	});
+	/*******************************************/
+	$("#sd1").click(function(){
+	$("#cd1").show();
+	$("#cd_one").hide();
+	$("#sd1").hide();
+	});
+	$("#sd2").click(function(){ 
+	$("#cd2").show();
+	$("#cd_two").hide();
+	$("#sd2").hide();
+	});
+	$("#sd3").click(function(){
+	$("#cd3").show();
+	$("#cd_three").hide();
+	$("#sd3").hide();
+	});
+	$("#sd4").click(function(){
+	$("#cd4").show();
+	$("#cd_four").hide();
+	$("#sd4").hide();
+	});
+	$("#sd5").click(function(){
+	$("#cd5").show();
+	$("#cd_five").hide();
+	$("#sd5").hide();
+	});
+	$("#sdd1").click(function(){
+	$("#cdd1").show();
+	$("#cdd_one").hide();
+	$("#sdd1").hide();
+	});
+	$("#sdd2").click(function(){
+	$("#cdd2").show();
+	$("#cdd_two").hide();
+	$("#sdd2").hide();
+	});
+    $("#sdd3").click(function(){
+	$("#cdd3").show();
+	$("#cdd_three").hide();
+	$("#sdd3").hide();
+	});	
+	$("#sdd4").click(function(){
+	$("#cdd4").show();
+	$("#cdd_four").hide();
+	$("#sdd4").hide();
+	});
+	$("#sdd5").click(function(){
+	$("#cdd5").hide();
+	$("#cdd_five").show();
+	$("#sdd5").show();
+	});
+});
+   </script>
   </body>
 </html>

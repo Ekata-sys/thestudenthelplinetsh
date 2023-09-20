@@ -91,13 +91,13 @@ function Login() {
 <div className='container'>
 		<div className='row'>
 			<div className='col-lg-4 col-md-6 col-sm-12 col-12'>
-<div>
+<div className='login-left'>
 <img src="assets/img/login-img.webp" alt=''/>
 </div>
 			</div>
 			<div className='col-lg-8 col-md-6 col-sm-12 col-12'>
 
-            <div className="login-left">
+            <div className="login-right">
 					<h3>1,50,000+ <strong>STUDENTS</strong></h3>
 					<p> TRUSTED US FOR ASSIGNMENT HELP</p>					
                     {/* <a className="btn-s" href="https://thestudenthelpline.io/login.php"> Order Without Login </a> */}
@@ -105,32 +105,32 @@ function Login() {
 			   </div>
             <div className="row login-sec">
 					   <div className="col-sm-4">
-						 <span><img src="assets/img/l-1.webp"/></span>
+						 <span><img src="assets/img/l-1.webp" alt=''/></span>
 						 <p>One Time Delivery</p>
 					   </div>
 					   
 					   <div className="col-sm-4">
-						 <span><img src="assets/img/l-2.webp"/></span>
+						 <span><img src="assets/img/l-2.webp" alt=''/></span>
 						 <p>24 X 7 Live Help</p>
 					   </div>
 					   
 					   <div className="col-sm-4">
-						 <span><img src="assets/img/l-3.webp"/></span>
+						 <span><img src="assets/img/l-3.webp" alt=''/></span>
 						 <p>Services For All Subjects</p>
 					   </div>
 					   
 					   <div className="col-sm-4">
-						 <span><img src="assets/img/l-4.webp"/></span>
+						 <span><img src="assets/img/l-4.webp" alt=''/></span>
 						 <p>5,137 PHD Experts</p>
 					   </div>
 					   
 					   <div className="col-sm-4">
-						 <span><img src="assets/img/l-5.webp"/></span>
+						 <span><img src="assets/img/l-5.webp" alt=''/></span>
 						 <p>Plagiarism Free Work</p>
 					   </div>
 					   
 					   <div className="col-sm-4">
-						 <span><img src="assets/img/l-6.webp"/></span>
+						 <span><img src="assets/img/l-6.webp" alt=''/></span>
 						 <p>Best Price Guarantee</p>
 					   </div>
 						

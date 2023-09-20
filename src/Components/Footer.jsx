@@ -89,11 +89,11 @@ function Footer() {
                               Eos cumque dicta adipisci amet
                               architecto culpa.</p>
                            <div className="footer__social">
-                              <span><Link to="#"><i className="fab fa-facebook-f"></i></Link></span>
-                              <span><Link to="#" className="yt"><i className="fab fa-youtube"></i></Link></span>
-                              <span><Link to="#" className="tw"><i className="fab fa-twitter"></i></Link></span>
-                              <span><Link to="#" className="tw"><i className="fab fa-pinterest"></i></Link></span>
-                              <span><Link to="#" className="tw"><i className="fab fa-instagram"></i></Link></span>
+                              <span><Link to="https://www.facebook.com/TheStudentHelpline/"><i className="fab fa-facebook-f"></i></Link></span>
+                              <span><Link to="https://www.youtube.com/channel/UCMg7dgCXeYwPsNRCyoYFjlA" className="yt"><i className="fab fa-youtube"></i></Link></span>
+                              <span><Link to="https://twitter.com/i/flow/login?redirect_after_login=%2Fthestudent_help" className="tw"><i className="fab fa-twitter"></i></Link></span>
+                              <span><Link to="https://www.pinterest.com.au/thestudenthelpline/" className="yt"><i className="fab fa-pinterest"></i></Link></span>
+                              <span><Link to="https://www.instagram.com/thestudenthelplineofficial/" className="tw"><i className="fab fa-instagram"></i></Link></span>
                            </div>
                            
                         </div>
@@ -118,6 +118,14 @@ function Footer() {
                   </div>
                </div>
             </div>
+
+            
+	   <div className="container">
+		   <p><b>Disclaimer:</b> The reference papers offered by The Student Helpline act as sample papers for students and are not to be presented as it is. These papers are only meant to be utilized for study and reference purposes.</p>
+	   </div>
+	   <div className="text-center"><img src="https://thestudenthelpline.io/images/card.webp" alt=''/></div>
+	
+
             <div className="footer__bottom">
                <div className="row">
                   <div className="col-12">

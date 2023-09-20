@@ -1,13 +1,4 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------------------------------
-
-    Theme Name: Tutorgo - Online Learning and Education HTML Template
-    Author: Theme Pure
-    Support: https://themepure.net/help/support/login
-    Description: Tutorgo – Education Template is a clean and modern HTML5 , Bootstrap Education Template. 
-    Version: 1.0
-
------------------------------------------------------------------------------------
 
 /************ TABLE OF CONTENTS ***************
 
@@ -351,6 +342,9 @@ input[type=color] {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-image: -moz-linear-gradient(120deg, rgb(43, 112, 250) 0%, rgb(132, 188, 250) 100%);
+  background-image: -webkit-linear-gradient(120deg, rgb(43, 112, 250) 0%, rgb(132, 188, 250) 100%);
+  background-image: -ms-linear-gradient(120deg, rgb(43, 112, 250) 0%, rgb(132, 188, 250) 100%);
 }
 
 /*----------------------------------------
@@ -9639,7 +9633,193 @@ p.checkout-coupon input[type=text]:focus {
   margin-bottom: 20px;
   display: block;
 }
+.login-left img{
+width: 100%;
+}
+.inner-b-contact {
+  text-align: center;
+  background: #fff9f1;
+  padding: 15px 0;
+}
+.ctaback{
+  background-image: -moz-linear-gradient(120deg, rgb(43, 112, 250) 0%, rgb(132, 188, 250) 100%);
+  background-image: -webkit-linear-gradient(120deg, rgb(43, 112, 250) 0%, rgb(132, 188, 250) 100%);
+  background-image: -ms-linear-gradient(120deg, rgb(43, 112, 250) 0%, rgb(132, 188, 250) 100%);
+  /* background-image: url("assets/img/bg/newsletter-bg-1.jpg"); */
+}
 
+.review-inner {
+  background: #a7c2f5;
+  box-shadow: -3px -1px 12px rgb(0 0 0 / 26%);
+  padding: 15px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.review-inner ul {
+  /* background-image: url("assets/img/qt.webp"); */
+  background-image: url("../img/qt.webp");
+  background-repeat: no-repeat;
+  background-position: 0 -1px;
+  padding-left: 63px;
+  list-style: none;
+  text-align: justify;
+}
+/* .review-inner:before {
+  background: url(assets/img/tri.png);
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -30px;
+  height: 63px;
+  width: 52px;
+  background-repeat: no-repeat;
+} */
+.review-inner li {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.star-fa i {
+  color: #ffc502;
+  font-size: 13px;
+}
+.recent-add h4 {
+  padding-top: 0;
+  color: #0d6e3d;
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 9px;
+}
+.review-box {
+  background: #a7c2f5;
+  text-align: center;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  text-align: justify;
+}
+
+.blog-left_sec {
+  background: #f3f7ff;
+  padding: 78px 0;
+  text-align: center;
+}
+
+.blog-righ__sec ul li {
+  font-size: 16px;
+  box-shadow: 0 15px 30px rgb(0 0 0 / 9%);
+  color: #000;
+  font-weight: 700;
+  padding: 16px 17px;
+  background: #fff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-position: 538px 22px;
+}
+.tab-secound__cn .nav-tabs {
+  border-bottom: none;
+  max-width: 799px;
+  margin: auto;
+  margin-top: 40px;
+}
+.tab-secound__cnt .nav-tabs .nav-link {
+  flex: inherit;
+  width: 100%;
+  text-align: left;
+  border-radius: 4px !important;
+}
+.tab-secound__cnt .nav-tabs .nav-link {
+  padding-left: 43px !important;
+}
+.tab-secound__cnt .nav-link {
+  display: block;
+  padding: 14px 8px;
+  font-weight: 400 !important;
+}
+.tab-secound__cnt .nav-link {
+  /* position: relative; */
+  box-shadow: 
+  -10px -10px 15px rgba(255, 255, 255, 0.5),
+  10px 10px 15px rgba(70, 70, 70, 0.12),
+  inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+  inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+
+
+.tab-secound__cnt .tab-content {
+    max-width: 720px;
+    margin-top: 0;
+    max-height: 405px;
+    box-shadow: inherit;
+    overflow-y: scroll;
+}
+
+.vtab .tab-content {
+  box-shadow: -3px -1px 36px rgb(0 0 0 / 9%);
+  padding: 30px !important;
+  text-align: left;
+  margin-top: 64px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+/* whatsapp */
+.whatsAppCTAWrp {
+  position: fixed;
+  bottom: 20px;
+  left: 21px;
+  z-index: 1;
+  background: #25d366;
+  width: 45px;
+  height: 45px;
+  border-radius: 7px;
+  transition: ease all 0.5s;
+  box-shadow: 1px 1px 4px #777;
+  overflow: hidden;
+}
+.whatsAppCTAWrp p {
+  display: block;
+  height: 100%;
+  text-align: center;
+}
+.whtIcon img {
+  width: 30px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.whatsAppCTAWrp {position: fixed;bottom: 20px;left: 21px;z-index: 999;background: #25d366;width: 45px;height: 45px;border-radius: 7px;transition: ease all 0.5s;box-shadow: 1px 1px 4px #777;overflow: hidden;}
+.whtIcon img {width: 30px;margin: 0px auto;text-align: center;}
+.whatsAppCTAWrp p a {padding: 5px 5px;color: #fff;display: inline-block;line-height: normal;overflow: hidden;width: 100%;text-align: center;margin: 0px auto;}
+.whtIcon {float: left;width: auto;padding: 0 0px 0 0;margin-left: 3px;}
+span.whatsAppText { float: left; width: 84%; text-align: left; text-align-last: left; padding: 1px 0 0; display: none; }
+.whatsAppText strong { width: 100%; float: left; font-size: 15px; line-height: 15px; }
+.whatsAppText small { font-size: 14px; }
+.whatsAppCTAWrp:hover { width: 250px; }
+.whatsAppCTAWrp:hover .whatsAppText{display: block;}
+.whatsAppCTAWrp p { display: block; height: 100%; text-align: center;}
+.btnhover .mt_btn_white-bor{color: #fff}
+.btnhover .mt_btn_white-bor:before{    background-color: #31b8a8;}
+.btnhover .mt_btn_white-bor.on-hover {opacity: 0;position: absolute;left: 0;top: 0;}
+.btnhover {display: inline-block;position: relative;margin-left: 5px;width: 76%;transition: all 400ms ease;}
+.btnhover:hover .mt_btn_white-bor.on-hover {opacity: 1;transition: all 200ms ease;border: 2px solid #fff;padding: 8px 20px;display: inline-block;border-radius: 5px;}
+.btnhover:hover .mt_btn_white-bor {opacity: 0;}
+
+.vtab .nav-pills .nav-link {
+  box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+ 
+}
+.vtab .nav-item{
+margin-left: 2%;
+}
+.pillsback{
+  box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+  10px 10px 15px rgba(70,70,70,0.12);
+}
 @media only screen and (max-width: 1365px){
 .pad60 {
     padding: 60px 15px;
@@ -9661,6 +9841,13 @@ p.checkout-coupon input[type=text]:focus {
 
 .pad60 {
   padding: 39px 0;
+}
+.tab-secound__cnt .tab-content {
+  padding: 20px !important;
+  text-align: left;
+  margin: 20px;
+  border-radius: 10px;
+  background: #fff;
 }
 }
 @media only screen and (max-width: 480px){

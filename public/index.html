@@ -99,7 +99,7 @@
 
    </script>
    <script>
-    	/*****************************/
+    	
       $(document).ready(function(){
 		$("#cd_one").hide();
 		$("#sd1").hide();
@@ -224,5 +224,21 @@
 	});
 });
    </script>
+
+<div class="whatsAppCTAWrp box">
+	<p> <a href="javascript:void(0);" onclick="gtag_report_conversion();">
+			<span class="whtIcon"><img src="assets/img/whatsapp-brands.svg" alt="need assignment help"></span> <span class="whatsAppText"><strong>Tap to
+					Chat</strong><small>Get best assignment help</small></span></a>
+	</p>
+</div>
+<script>
+	function gtag_report_conversion() {
+		var gtag_url = 'https://api.whatsapp.com/send?phone=447882466599&text=I%20Need%20Help!!';
+		window.open(gtag_url, "_blank", "width=800, height=650");
+		return false;
+	}
+</script>
+
+
   </body>
 </html>

@@ -34,16 +34,16 @@ function OurServices() {
                                    <button className="nav-link" id="coursework-tab" data-bs-toggle="tab" data-bs-target="#coursework" type="button" role="tab" aria-controls="coursework" aria-selected="false"> <i className="fal fa-user"></i> <span>Coursework</span> </button>
                                  </li>
                                  <li className="nav-item" role="presentation">
-                                   <button className="nav-link" id="resumewriting-tab" data-bs-toggle="tab" data-bs-target="#resumewriting" type="button" role="tab" aria-controls="resumewriting" aria-selected="false"> <i class="fa-solid fa-pen"></i> <span>Resume Writing</span> </button>
+                                   <button className="nav-link" id="resumewriting-tab" data-bs-toggle="tab" data-bs-target="#resumewriting" type="button" role="tab" aria-controls="resumewriting" aria-selected="false"> <i className="fa-solid fa-pen"></i> <span>Resume Writing</span> </button>
                                  </li>
                                  <li className="nav-item" role="presentation">
-                                   <button className="nav-link" id="research-tab" data-bs-toggle="tab" data-bs-target="#research" type="button" role="tab" aria-controls="research" aria-selected="false"> <i class="fa-solid fa-book"></i><span>Research Proposal</span> </button>
+                                   <button className="nav-link" id="research-tab" data-bs-toggle="tab" data-bs-target="#research" type="button" role="tab" aria-controls="research" aria-selected="false"> <i className="fa-solid fa-book"></i><span>Research Proposal</span> </button>
                                  </li>
                                  <li className="nav-item" role="presentation">
                                    <button className="nav-link" id="casestudy-tab" data-bs-toggle="tab" data-bs-target="#casestudy" type="button" role="tab" aria-controls="casestudy" aria-selected="false"> <i className="fal fa-user"></i> <span>Case Study</span> </button>
                                  </li>
                                  <li className="nav-item" role="presentation">
-                                   <button className="nav-link" id="quiz-tab" data-bs-toggle="tab" data-bs-target="#quiz" type="button" role="tab" aria-controls="quiz" aria-selected="false"> <i class="fa-brands fa-teamspeak"></i> <span>Quiz & Exam</span> </button>
+                                   <button className="nav-link" id="quiz-tab" data-bs-toggle="tab" data-bs-target="#quiz" type="button" role="tab" aria-controls="quiz" aria-selected="false"> <i className="fa-brands fa-teamspeak"></i> <span>Quiz & Exam</span> </button>
                                  </li>
                                </ul>
                            </div>

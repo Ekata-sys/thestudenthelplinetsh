@@ -1,5 +1,6 @@
 import React from 'react'
 import{Link} from 'react-router-dom'
+import Form from './Form'
 function Reviews() {
   return (
    <>
@@ -42,7 +43,7 @@ function Reviews() {
 
 <div className='col-sm-6'>
 <div>
-   form
+   <Form/>
 </div>
 </div>
     </div>

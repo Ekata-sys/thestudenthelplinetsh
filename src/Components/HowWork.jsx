@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import ThreeSteps from './Home/ThreeSteps'
+import Form from './Form'
 function HowWork() {
   return (
    <>
@@ -43,7 +44,9 @@ function HowWork() {
 
             </div>
             <div className='col-xl-4 col-lg-4'>
-                <div>Form Area</div>
+                <div>
+                  <Form/>
+                </div>
                 </div>
         </div>
     </div>

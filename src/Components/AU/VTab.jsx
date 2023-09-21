@@ -3,7 +3,10 @@ import {Link} from 'react-router-dom'
 
 function VTab() {
   return (
-    <section className='tab-secound__cnt pt-120 pb-90'>
+   
+
+<>
+<section className='tab-secound__cnt pt-120 pb-90'>
         <div className='container'>
         <div className="d-flex align-items-start pillsback">
   <div className="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -125,6 +128,10 @@ function VTab() {
 </div>
         </div>
     </section>
+
+    
+</>
+    
   )
 }
 

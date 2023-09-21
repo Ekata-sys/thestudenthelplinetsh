@@ -3,32 +3,32 @@ import React from 'react'
 function MakesAwesome() {
   return (
     <>
-<section className='vtab pt-150 pb-30'>
+<section className='inner-ths help-services pt-150 pb-30'>
 <div className='container'>
   <div className='text-center py-5'>
   <h3>What Makes US Awesome</h3>
   </div>
 <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
   <li className="nav-item" role="presentation">
-    <button className="nav-link active" id="pills-t1-tab" data-bs-toggle="pill" data-bs-target="#pills-t1" type="button" role="tab" aria-controls="pills-t1" aria-selected="true">On-Time Delivery</button>
+    <button className="nav-link active" id="pills-t1-tab" data-bs-toggle="pill" data-bs-target="#pills-t1" type="button" role="tab" aria-controls="pills-t1" aria-selected="true"><span><img src="assets/img/cnt-1.webp" alt="On Time Assignment"/></span>On-Time Delivery</button>
   </li>
   <li className="nav-item" role="presentation">
-    <button className="nav-link" id="pills-t2-tab" data-bs-toggle="pill" data-bs-target="#pills-t2" type="button" role="tab" aria-controls="pills-t2" aria-selected="false">Round the Clock Assistance</button>
+    <button className="nav-link" id="pills-t2-tab" data-bs-toggle="pill" data-bs-target="#pills-t2" type="button" role="tab" aria-controls="pills-t2" aria-selected="false"><span><img src="assets/img/cnt-2.webp" alt="Round the Clock Assistance"/></span>Round the Clock Assistance</button>
   </li>
   <li className="nav-item" role="presentation">
-    <button className="nav-link" id="pills-t3-tab" data-bs-toggle="pill" data-bs-target="#pills-t3" type="button" role="tab" aria-controls="pills-t3" aria-selected="false">Certified Experts</button>
+    <button className="nav-link" id="pills-t3-tab" data-bs-toggle="pill" data-bs-target="#pills-t3" type="button" role="tab" aria-controls="pills-t3" aria-selected="false"><span><img src="assets/img/cnt-3.webp" alt="Assignment Experts"/></span>Certified Experts</button>
   </li>
   <li className="nav-item" role="presentation">
-    <button className="nav-link" id="pills-t4-tab" data-bs-toggle="pill" data-bs-target="#pills-t4" type="button" role="tab" aria-controls="pills-t4" aria-selected="false">Assistance in Every Subject</button>
+    <button className="nav-link" id="pills-t4-tab" data-bs-toggle="pill" data-bs-target="#pills-t4" type="button" role="tab" aria-controls="pills-t4" aria-selected="false"><span><img src="assets/img/cnt-4.webp" alt="Assistance in Every Subject"/></span>Assistance in Every Subject</button>
   </li>
   <li className="nav-item" role="presentation">
-    <button className="nav-link" id="pills-t5-tab" data-bs-toggle="pill" data-bs-target="#pills-t5" type="button" role="tab" aria-controls="pills-t5" aria-selected="false">Plagiarism Free-Work</button>
+    <button className="nav-link" id="pills-t5-tab" data-bs-toggle="pill" data-bs-target="#pills-t5" type="button" role="tab" aria-controls="pills-t5" aria-selected="false"><span><img src="assets/img/cnt-5.webp" alt="Plag free Assignment"/></span>Plagiarism Free-Work</button>
   </li>
   <li className="nav-item" role="presentation">
-    <button className="nav-link" id="pills-t6-tab" data-bs-toggle="pill" data-bs-target="#pills-t6" type="button" role="tab" aria-controls="pills-t5" aria-selected="false">Best-In-Class Assured</button>
+    <button className="nav-link" id="pills-t6-tab" data-bs-toggle="pill" data-bs-target="#pills-t6" type="button" role="tab" aria-controls="pills-t5" aria-selected="false"><span><img src="assets/img/cnt-6.webp" alt="Best-In-Class"/></span>Best-In-Class Assured</button>
   </li>
 </ul>
-<div className="tab-content" id="pills-tabContent">
+<div className="tab-content help-services-tab-content" id="pills-tabContent">
   <div className="tab-pane fade show active" id="pills-t1" role="tabpanel" aria-labelledby="pills-t1-tab">
 
   <div>

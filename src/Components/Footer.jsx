@@ -17,19 +17,19 @@ function Footer() {
                         </div>
                         <div className="footer__widget-content">
                         <ul>
-                           <li><Link to="#">How It Works</Link></li>
-                           <li><Link to="#">Contact Us</Link></li>
-                              <li><Link to="#">About Us</Link></li>
-                              <li><Link to="#">Reviews</Link></li>
-                              <li><Link to="#">FAQs</Link></li>
-                              <li><Link to="#">Blog</Link></li>
-                              <li><Link to="#">Privacy Policy</Link></li>
-                              <li><Link to="#">Refund Policy</Link></li>
-                              <li><Link to="#">Revision Policy</Link></li>
-                              <li><Link to="#">Terms & Conditions</Link></li>
-                              <li><Link to="#">Order Now</Link></li>
-                              <li><Link to="#">Our Offers</Link></li>
-                              <li><Link to="#">Experts</Link></li>
+                           <li><Link to="/howitwork">How It Works</Link></li>
+                           <li><Link to="/contact">Contact Us</Link></li>
+                              <li><Link to="/about">About Us</Link></li>
+                              <li><Link to="/review">Reviews</Link></li>
+                              <li><Link to="/faqs">FAQs</Link></li>
+                              <li><Link to="/blog">Blog</Link></li>
+                              <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+                              <li><Link to="/refund-policy">Refund Policy</Link></li>
+                              <li><Link to="/revision-policy">Revision Policy</Link></li>
+                              <li><Link to="/terms-and-conditions">Terms & Conditions</Link></li>
+                              <li><Link to="/order">Order Now</Link></li>
+                              <li><Link to="/offer">Our Offers</Link></li>
+                              <li><Link to="/experts">Experts</Link></li>
                            </ul>
                         </div>
                      </div>

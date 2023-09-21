@@ -1,5 +1,5 @@
 import React from 'react'
-// import Form from '../Form'
+import Form from '../Form'
 import Slider from "react-slick"
 function Hero() {
     var brand = {
@@ -76,7 +76,7 @@ function Hero() {
                   <div className="tp-hero__img">
                      {/* <img src="assets/img/hero/hero-img-1.png" alt="hero" /> */}
                      <div className='form d-flex justify-content-center pb-5 w-74 ps-0 ps-lg-5 ms-0 ms-lg-5'>
-                {/* <Form/> */}
+                <Form/>
                 <br/>
               </div>
                   </div>

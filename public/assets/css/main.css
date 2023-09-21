@@ -1644,11 +1644,19 @@ input[type=color] {
   text-align: left;
   font-size: 24px;
   font-weight: 700;
-  padding: 40px;
-  padding-bottom: 20px;
+  padding: 20px;
+  /* padding-bottom: 20px; */
   background-color: var(--tp-common-white);
   color: #212121;
   border-radius: 10px 10px 0 0;
+  /* border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff; */
+             
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
 }
 @media (max-width: 575px) {
   .tp-custom-accordio .accordion-buttons {
@@ -1675,9 +1683,9 @@ input[type=color] {
     right: 18px;
   }
 }
-.tp-custom-accordio .accordion-buttons.collapsed {
+/* .tp-custom-accordio .accordion-buttons.collapsed {
   padding: 40px;
-}
+} */
 .tp-custom-accordio .accordion-buttons.collapsed::after {
   content: "\f062";
   color: var(--tp-common-black);
@@ -4719,6 +4727,14 @@ input[type=color] {
   -ms-border-radius: 0;
   border-radius: 0;
   border-bottom: 1px solid #fff;
+
+  /* border-radius: 44px;
+background: linear-gradient(145deg, #0f1456, #121866);
+box-shadow:  30px 30px 60px #0e1351,
+             -30px -30px 60px #14196d; */
+             background-color:#E0E5EC;
+             box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px  rgba(255,255,255, 0.5);
+                 /* For Neumorphism Effect */
 }
 .nav-tabs .nav-link {
   border: 1px solid #fff;
@@ -9622,9 +9638,7 @@ p.checkout-coupon input[type=text]:focus {
   background: #ffc502;
 }
 
-.tp-custom-accordio{
-  box-shadow: 0px 40px 80px 0px rgba(2, 2, 26, 0.14);
-}
+
 
 .login-sec {
   text-align: center;
@@ -9739,15 +9753,21 @@ ul {
   display: block;
   padding: 14px 8px;
   font-weight: 400 !important;
+  border-color: inherit;
+  color: #000;
+  background-color: #afd275;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
 }
-.tab-secound__cnt .nav-link {
-  /* position: relative; */
+
+
+/* .tab-secound__cnt .nav-link {
+  position: relative;
   box-shadow: 
   -10px -10px 15px rgba(255, 255, 255, 0.5),
   10px 10px 15px rgba(70, 70, 70, 0.12),
   inset -10px -10px 15px rgba(255, 255, 255, 0.5),
   inset 10px 10px 15px rgba(70, 70, 70, 0.12);
-}
+} */
 
 
 .tab-secound__cnt .tab-content {
@@ -9758,7 +9778,116 @@ ul {
     overflow-y: scroll;
 }
 
-.vtab .tab-content {
+/* .vtab .tab-content {
+  box-shadow: -3px -1px 36px rgb(0 0 0 / 9%);
+  padding: 30px !important;
+  text-align: left;
+  margin-top: 64px;
+  border-radius: 10px;
+  background: #fff;
+} */
+
+.help-services .nav-tabs {
+  margin-top: 0;
+}
+.inner-ths .nav-tabs {
+  max-width: 100%;
+}
+/* .nav-tabs {
+  border-bottom: none;
+  max-width: 799px;
+  margin: auto;
+  margin-top: 40px;
+} */
+.nav-item{
+  padding: 10px 13px;
+}
+.inner-ths .nav-tabs .nav-item.show .nav-link,
+.inner-ths .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #f16126;
+    border-color: inherit;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 0;
+    padding: 14px 17px;
+    line-height: 21px;
+    display: block
+}
+
+.inner-ths .nav-link {
+    position: relative
+}
+
+.inner-ths .nav-link.active:before {
+    position: absolute;
+    content: "";
+    height: 25px;
+    width: 25px;
+    background: #b5fff9;
+    left: -19px;
+    top: inherit;
+    transform: rotate(45deg);
+    bottom: -14px;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+.inner-ths .nav-link span {
+  display: block;
+  margin-bottom: 10px;
+}
+#pills-t1-tab {
+  background-color: #b5fff9;
+  color: #000;
+}
+
+#pills-t2-tab,
+#pills-t2-tab.active:before {
+    background-color: #b5b8ff;
+    color: #000
+}
+
+#pills-t3-tab,
+#pills-t3-tab.active:before {
+    background-color: #ffd6b5;
+    color: #000
+}
+
+#pills-t4-tab,
+#pills-t4-tab.active:before {
+    background-color: #bfffb5;
+    color: #000
+}
+
+#pills-t5-tab,
+#pills-t5-tab.active:before {
+    background-color: #fcb5ff;
+    color: #000
+}
+
+#pills-t6-tab,
+#pills-t6-tab.active:before {
+    background-color: #ffb5b5;
+    color: #000
+}
+
+.tab-secound__cnt .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+
+  font-weight: 400;
+  border-radius: 0;
+  padding: 14px 17px;
+  line-height: 21px;
+  display: block;
+  background-color: #fff;
+  border-color: inherit;
+  color: #000;
+  background-color: #78b710;
+  box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+
+}
+.help-services-tab-content {
   box-shadow: -3px -1px 36px rgb(0 0 0 / 9%);
   padding: 30px !important;
   text-align: left;
@@ -9809,20 +9938,38 @@ span.whatsAppText { float: left; width: 84%; text-align: left; text-align-last: 
 .btnhover:hover .mt_btn_white-bor.on-hover {opacity: 1;transition: all 200ms ease;border: 2px solid #fff;padding: 8px 20px;display: inline-block;border-radius: 5px;}
 .btnhover:hover .mt_btn_white-bor {opacity: 0;}
 
-.vtab .nav-pills .nav-link {
+/* .vtab .nav-pills .nav-link {
   box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
  
-}
-.vtab .nav-item{
+} */
+/* .vtab .nav-item{
 margin-left: 2%;
-}
-.pillsback{
+} */
+/* .pillsback{
   box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
   10px 10px 15px rgba(70,70,70,0.12);
+} */
+
+.offer {
+  background-color : #000000;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: #46b8da;
+}
+
+#offerbutton {
+  position: fixed;
+  top: 30%;
+  right: 10px;
+  z-index: 1;
 }
 @media only screen and (max-width: 1365px){
 .pad60 {
     padding: 60px 15px;
+}
+.nav-item{
+  padding: 6px 9px;
 }
 }
 @media only screen and (max-width: 768px){
@@ -9849,6 +9996,11 @@ margin-left: 2%;
   border-radius: 10px;
   background: #fff;
 }
+.tab-secound__cnt .d-flex {
+  display: flex!important;
+  flex-wrap: wrap;
+  align-items: center;
+}
 }
 @media only screen and (max-width: 480px){
 .benifits {
@@ -9856,6 +10008,11 @@ margin-left: 2%;
 }
 .pad60 {
   padding: 5px 0;
+}
+.tab-secound__cnt .d-flex {
+  display: flex!important;
+  flex-wrap: wrap;
+  align-items: center;
 }
 }
 

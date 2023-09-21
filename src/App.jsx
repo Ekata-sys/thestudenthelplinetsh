@@ -12,6 +12,15 @@ import HowWork from './Components/HowWork';
 import Reviews from './Components/Reviews';
 import Search from './Components/Search';
 import HomePageAU from './Components/HomePageAU';
+import Service from './Components/Service/Service';
+import OrderNow from './Components/OrderNow/OrderNow';
+import Offer from './Components/Offer/Offer';
+import FAQs from './Components/FAQs/FAQs';
+import Privacypolicy from './Components/Policy/Privacypolicy';
+import RefundPolicy from './Components/Policy/RefundPolicy';
+import RevisionPolicy from './Components/Policy/RevisionPolicy';
+import TermsAndConditions from './Components/Policy/TermsAndConditions';
+import Experts from './Components/Experts/Experts';
 function App() {
   return (
     <>
@@ -28,6 +37,18 @@ function App() {
         <Route path="/reviews" element={<Reviews/>}/>
         <Route path="/search" element={<Search/>}/>
         <Route path="/au" element={<HomePageAU/>}/>
+        <Route path="/service/:title" element={<Service/>}/>
+        <Route path="/assignment/:title" element={<Service/>}/>
+        <Route path="/dissertation/:title" element={<Service/>}/>
+        <Route path="/quiz/:title" element={<Service/>}/>
+        <Route path="/offer" element={<Offer/>}/>
+        <Route path="/order" element={<OrderNow/>}/>
+        <Route path="/faqs" element={<FAQs/>}/>
+        <Route path="/privacy-policy" element={<Privacypolicy/>}/>
+        <Route path="/refund-policy" element={<RefundPolicy/>}/>
+        <Route path="/revision-policy" element={<RevisionPolicy/>}/>
+        <Route path="/terms-and-conditions" element={<TermsAndConditions/>}/>
+        <Route path="/experts" element={<Experts/>}/>
       </Routes>
       
       <Footer/>

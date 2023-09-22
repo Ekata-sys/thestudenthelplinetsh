@@ -9964,6 +9964,12 @@ margin-left: 2%;
   right: 10px;
   z-index: 1;
 }
+.formback{
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 @media only screen and (max-width: 1365px){
 .pad60 {
     padding: 60px 15px;

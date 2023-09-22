@@ -73,7 +73,7 @@ function Hero() {
                   </div> */}
                </div>
                <div className="col-lg-5">
-                  <div>
+                  <div className="formback">
                    
                      <div className='form d-flex justify-content-center pb-5 w-74 ps-0 ps-lg-5 ms-0 ms-lg-5'>
                 <Form/>

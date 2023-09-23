@@ -4708,9 +4708,9 @@ box-shadow:  20px 20px 60px #bebebe,
 .course__tab-2 .nav-tabs .nav-item {
   width: 25%;
 }
-.course__tab-2 .nav-tabs .nav-item:not(:last-child) .nav-link {
+/* .course__tab-2 .nav-tabs .nav-item:not(:last-child) .nav-link {
   border-right: 1px solid var(--tp-common-white);
-}
+} */
 .course__tab-2 .nav-tabs .nav-item .nav-link {
   background: #a7c2f5;
   font-size: 16px;
@@ -9969,6 +9969,14 @@ margin-left: 2%;
   padding: 2rem 3rem;
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+@media only screen and (max-width: 1650px){
+.tp-hero__shapes-6 {
+  position: absolute;
+  top: 240px;
+  left: 3%;
+  animation: tp-float-2 7s infinite alternate;
+}
 }
 @media only screen and (max-width: 1365px){
 .pad60 {

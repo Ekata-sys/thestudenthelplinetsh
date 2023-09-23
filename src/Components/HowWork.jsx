@@ -44,7 +44,7 @@ function HowWork() {
 
             </div>
             <div className='col-xl-4 col-lg-4'>
-                <div>
+                <div className="formback">
                   <Form/>
                 </div>
                 </div>

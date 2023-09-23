@@ -52,7 +52,9 @@ export default function RevisionPolicy() {
                <div className="col-md-4 col-lg-5">
                   <h4 className='text-center'>Guaranteed Higher Grades!!</h4>
                   <h3 className='text-center text-warning mb-40'>Get Help Right Away!!</h3>
+                  <div className='formback'>
                   <Form/>
+                  </div>
                </div>
             </div>
          </div>

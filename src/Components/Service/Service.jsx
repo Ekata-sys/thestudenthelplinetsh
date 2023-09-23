@@ -94,7 +94,9 @@ export default function Service() {
                         <div className="col-xxl-5 col-xl-5 col-lg-5">
                            <div className="course__sidebar pl-70 p-relative">
                               <div className="course__sidebar-widget-2 white-bg mb-20 p-0">
+                              <div className='formback'>
                                  <Form/>
+                                 </div>
                               </div>
                               <div className="course__sidebar-widget-2 white-bg mb-20">
                                  <div className="course__sidebar-course">

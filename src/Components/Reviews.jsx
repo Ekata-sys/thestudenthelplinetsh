@@ -42,7 +42,7 @@ function Reviews() {
 </div>
 
 <div className='col-sm-6'>
-<div>
+<div className="formback">
    <Form/>
 </div>
 </div>

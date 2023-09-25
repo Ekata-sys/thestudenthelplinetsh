@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 function Faq() {
   return (
    <>
@@ -121,8 +121,119 @@ function Faq() {
    </div>
 
  </section>
- 
 
+<section id="faq" class="faq faqback">
+  <div class="container">
+    <div className='text-center'>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+
+    <div class="faq-list">
+      <ul>
+        <li>
+          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <Link data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What is lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></Link>
+          <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <Link data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">What is lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></Link>
+          <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <Link data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">What is Lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></Link>
+          <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <Link data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">What is lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></Link>
+          <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <Link data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">What is Lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></Link>
+          <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <Link data-bs-toggle="collapse" data-bs-target="#faq-list-6" class="collapsed">What is Lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></Link>
+          <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <Link data-bs-toggle="collapse" data-bs-target="#faq-list-7" class="collapsed">What is Lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></Link>
+          <div id="faq-list-7" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <Link data-bs-toggle="collapse" data-bs-target="#faq-list-8" class="collapsed">What is Lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></Link>
+          <div id="faq-list-8" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <Link data-bs-toggle="collapse" data-bs-target="#faq-list-9" class="collapsed">What is Lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></Link>
+          <div id="faq-list-9" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <Link data-bs-toggle="collapse" data-bs-target="#faq-list-10" class="collapsed">What is Lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></Link>
+          <div id="faq-list-10" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <Link data-bs-toggle="collapse" data-bs-target="#faq-list-11" class="collapsed">What is Lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></Link>
+          <div id="faq-list-11" class="collapse" data-bs-parent=".faq-list">
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</section>
    </>
   )
 }

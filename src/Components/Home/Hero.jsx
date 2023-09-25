@@ -95,9 +95,9 @@ function Hero() {
             <div className="tp-hero__shapes-3">
                <img src="assets/img/icons/dots-shapes.png" alt="" />
             </div>
-            <div className="tp-hero__shapes-4">
+            {/* <div className="tp-hero__shapes-4">
                <img src="assets/img/icons/line-shape.png" alt="" />
-            </div>
+            </div> */}
             <div className="tp-hero__shapes-5">
                <img src="assets/img/icons/lines-shape.png" alt="" />
             </div>

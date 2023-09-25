@@ -83,14 +83,16 @@ function Review() {
   return (
     <section className="feedback pad60">
 	   <div className="container">
-	   <h3>A Glimpse To TheStudentHelpline Evaluation Done By You</h3>
+	   <div className='text-center py-3'>
+       <h3>A Glimpse To TheStudentHelpline Evaluation Done By You</h3>
+       </div>
 	       {/* <div id="owl-demo" className="owl-carousel owl-theme owl3"> */}
 		   <OwlCarousel className='owl-theme' {...options}>
                     {
                         reviews.map((data)=>(
                             <div className="c-card p-xl-4 p-3" key={data.id}>
                                 <div>
-                                <img src={`./assets/img/${data.profile}.webp`} alt="" style={{ width: "75px" }} />
+                                {/* <img src={`./assets/img/${data.profile}.webp`} alt="" style={{ width: "75px" }} /> */}
                                 <p className='fs-5 fw-bold'>{data.name}</p>
                                 <p>{data.review}</p>
                                 </div>

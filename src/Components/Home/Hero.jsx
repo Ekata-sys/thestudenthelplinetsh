@@ -1,6 +1,7 @@
 import React from 'react'
 import Form from '../Form'
 import Slider from "react-slick"
+import {Link} from'react-router-dom'
 function Hero() {
     var brand = {
         autoplay: true,
@@ -10,6 +11,7 @@ function Hero() {
 		infinite: true,
 		speed: 300,
 		slidesToShow: 6,
+      // centerMode: true,
 		slidesToScroll: 1,
 		responsive: [
 			{
@@ -31,7 +33,7 @@ function Hero() {
 			{
 				breakpoint: 480,
 				settings: {
-					slidesToShow: 1,
+					slidesToShow: 2,
 					slidesToScroll: 1
 				}
 			}
@@ -113,7 +115,7 @@ function Hero() {
             <div className="row justify-content-center">
                <div className="col-lg-12">
                   <div className="tp-brand__box white-bg pt-40">
-                     <div className="row">
+                     <div className="row text-center">
                         <div className="col-xl-4 col-md-6">
                         <p>Trusted by</p>
                            <h3>500K+ Student's Of</h3>
@@ -125,9 +127,15 @@ function Hero() {
                               <i className="fas fa-star"></i>
                               <i className="fas fa-star"></i>
                               <i className="fas fa-star"></i>
-                              <i className="fal fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
                            </span>
                            <p>4.5 Star Rating (20+ Review)</p>
+                        </div>
+                        <div className="col-xl-4 col-md-6">
+                        <Link to="/offer" >
+                                                <span><img src='assets/img/special-offer.jpg' alt="offer" className='offer-img'/></span>
+                                             </Link>
+                                            
                         </div>
                      </div>
                      <div className="row">

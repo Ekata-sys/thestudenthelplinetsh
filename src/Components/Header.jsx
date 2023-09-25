@@ -228,12 +228,12 @@ function Header() {
    
    {/* <!-- header area end --> */}
 
-   <div id="offerbutton">
+   {/* <div id="offerbutton">
 <button class="offer"> <Link to="#" className="cat-menu d-flex align-items-center">
                                                 <span><img src={`${process.env.PUBLIC_URL}/assets/img/offer.webp`} alt="logo" />
 </span>
                                              </Link></button>
-</div>  
+</div>   */}
 {/* 
    <!-- offcanvas area start --> */}
   <div className="offcanvas__area" >

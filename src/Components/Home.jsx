@@ -8,7 +8,7 @@ import Awesome from './Home/Awesome'
 import CheeryBye from './Home/CheeryBye'
 import Faq from './Home/Faq'
 import Review from './Home/Review'
-import NewsBlog from './Home/NewsBlog'
+// import NewsBlog from './Home/NewsBlog'
 
 function Home() {
   return (
@@ -23,7 +23,7 @@ function Home() {
      <CheeryBye/>
      <Faq/>
      <Review/>
-     <NewsBlog/>
+     {/* <NewsBlog/> */}
     </>
   )
 }

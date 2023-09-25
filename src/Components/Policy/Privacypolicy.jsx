@@ -5,7 +5,7 @@ import Form from '../Form'
 export default function Privacypolicy() {
   return (
     <main>
-        <div className="breadcrumb__area include-bg pt-200 pb-150 breadcrumb__overlay">
+        <div className="breadcrumb__area include-bg pt-50 pb-50 breadcrumb__overlay">
             <div className="container">
                <div className="row">
                   <div className="col-xxl-12">

@@ -61,7 +61,7 @@ export default function Service() {
          <Helmet>
          <title>{a.seo_page_title}</title>
       </Helmet>
-         <div className="breadcrumb__area include-bg pt-200 pb-150 breadcrumb__overlay">
+         <div className="breadcrumb__area include-bg pt-50 pb-50 breadcrumb__overlay">
             <div className="container">
                <div className="row">
                   <div className="col-xxl-12">
@@ -102,7 +102,7 @@ export default function Service() {
                                  <div className="course__sidebar-course">
                                     <h3 className="course__sidebar-title">Related Services</h3>
                                     <ul className='ps-0 pe-4'>
-                                       <li className='px-4 py-2 bg-info bg-opacity-10 mb-3 services-links' ><a href="">Coursework Help Au</a></li>
+                                       <li className='px-4 py-2 bg-info bg-opacity-10 mb-3 services-links' ><Link to="">Coursework Help Au</Link></li>
                                     </ul>
                                  </div>
                               </div>
@@ -120,7 +120,7 @@ export default function Service() {
                                     <ul className='ps-0 pe-4'>
                                        {
                                           afterService.map((element, index) => (
-                                             <li className='px-4 py-2 bg-info bg-opacity-10 mb-3 services-links' key={index}><a href={`${element.link}`}>{element.content}</a></li>
+                                             <li className='px-4 py-2 bg-info bg-opacity-10 mb-3 services-links' key={index}><Link to={`${element.link}`}>{element.content}</Link></li>
                                           ))
                                        }
                                     </ul>

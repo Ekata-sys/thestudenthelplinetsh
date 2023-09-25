@@ -1654,7 +1654,7 @@ background: #e0e0e0;
 box-shadow:  20px 20px 60px #bebebe,
              -20px -20px 60px #ffffff; */
              
-background: linear-gradient(145deg, #cacaca, #f0f0f0);
+/* background: linear-gradient(145deg, #cacaca, #f0f0f0); */
 box-shadow:  20px 20px 60px #bebebe,
              -20px -20px 60px #ffffff;
 }
@@ -4726,7 +4726,7 @@ box-shadow:  20px 20px 60px #bebebe,
   -o-border-radius: 0;
   -ms-border-radius: 0;
   border-radius: 0;
-  border-bottom: 1px solid #fff;
+  /* border-bottom: 1px solid #fff; */
 
   /* border-radius: 44px;
 background: linear-gradient(145deg, #0f1456, #121866);
@@ -9327,7 +9327,7 @@ p.checkout-coupon input[type=text]:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  height: 94%;
+  height: 86%;
   border-radius: 10px;
   box-shadow: 0 15px 30px rgb(0 0 0 / 20%);
   position: relative;
@@ -9343,7 +9343,7 @@ p.checkout-coupon input[type=text]:focus {
 
 
 .experties {
-    background: #0f2e62 ;
+    background: #f9f9f9 ;
     text-align: center;
     background-size: cover;
     padding-bottom: 0;
@@ -9354,13 +9354,13 @@ p.checkout-coupon input[type=text]:focus {
 .pad60 {
     padding: 40px 0;
 }
-.experties .owl-carousel .owl-item {
+/* .experties .owl-carousel .owl-item {
   background: #fff;
   padding: 20px;
   padding-top: 60px;
   box-shadow: 0 15px 30px rgb(159 155 155 / 20%);
   height: 500px;
-}
+} */
 /* .se-img {
   width: 107px;
   height: 107px;
@@ -9416,12 +9416,9 @@ p.checkout-coupon input[type=text]:focus {
     padding-left: 0
 }
 
-.owl2 .owl-item {
-    padding-left: 0 !important;
-    padding-right: 0 !important
-}
 
-.bg1 {
+
+/* .bg1 {
     background: #b5fff9 !important
 }
 
@@ -9439,11 +9436,12 @@ p.checkout-coupon input[type=text]:focus {
 
 .bg5 {
     background: #bfffb5 !important
-}
+} */
 
 .owl2 .item {
     padding: 30px;
-    border-radius: 10px
+    border-radius: 10px;
+    background: #faf4f4!important
 }
 
 .owl2 .owl-stage {
@@ -9475,7 +9473,7 @@ p.checkout-coupon input[type=text]:focus {
 
 .three_steps .properties_outer_div {
   position: relative;
-  height: auto;
+  height: 280px;
   width: 250px;
   display: flex;
   align-items: center;
@@ -9623,7 +9621,7 @@ p.checkout-coupon input[type=text]:focus {
 .c-card{
   border-radius: 40px;
   border-bottom-right-radius: unset;
-  background: #f5f5f5;
+  background: #f3f7ff;
   min-height: 385px;
   display: flex;
   flex-direction: column;
@@ -9636,6 +9634,8 @@ p.checkout-coupon input[type=text]:focus {
 }
 .counter-back{
   background: #ffc502;
+  width: 90%;
+  margin: auto;
 }
 
 
@@ -9970,6 +9970,79 @@ margin-left: 2%;
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
+
+
+.offer-img{
+  height: 80px;
+  width: 100px;
+  display: block;
+  margin-top: -1rem;
+}
+
+
+/* slider section */
+.slider {
+ 
+  position: relative;
+}
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1.25);
+  opacity: 1;
+  background-image: linear-gradient(180deg,#f3f2ff,#fdf7f7);
+  border: 1px solid #f9dfdf!important;
+  background: #faf4f4;
+  color: #fff;
+}
+.slider-card {
+  background: #fff;
+  padding: 10px 10px;
+  margin: 50px 15px 50px 15px;
+  border-radius: 5px;
+  box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+  transform: scale(0.9);
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+.slider-card img {
+  border-radius: 5px 5px 0px 0px;
+ 
+}
+.owl-carousel .owl-item img{
+  height: 150px;
+  width: 150px;
+}
+.owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+/* .owl-dots {
+  text-align: center;
+}
+.owl-dots .owl-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: #ccc !important;
+  margin-left: 3px;
+  margin-right: 3px;
+  outline: none;
+}
+.owl-dots .owl-dot.active {
+  background: #f44336 !important;
+} */
+
 @media only screen and (max-width: 1650px){
 .tp-hero__shapes-6 {
   position: absolute;

@@ -11,7 +11,7 @@ function ThreeSteps() {
                     <p className='text-white fs-5 mt-3'>01</p>
                     </div>
                     <h4 className="properties_title">
-                    <p className='text-white fs-5 mt-3'>Convey</p>
+                    <h4 className="properties_title">Convey</h4>
                     </h4>
                     <p><p>Visit <a href="https://thestudenthelpline.io/">TheStudentHelpline</a> and mention the requirements and guidelines in the “Order Now” form. Shortly, you will receive a notification from The Student Helpline. </p></p>
                     <div id="top-left" className="corner"></div>

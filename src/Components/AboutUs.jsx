@@ -1,9 +1,9 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 function AboutUs() {
   return (
    <>
-    <div className="breadcrumb__area include-bg pt-200 pb-150 breadcrumb__overlay"
+    <div className="breadcrumb__area include-bg pt-50 pb-50 breadcrumb__overlay"
          data-background="assets/img/breadcrumb/breadcrumb-bg.jpg">
          <div className="container">
             <div className="row">
@@ -11,7 +11,7 @@ function AboutUs() {
                   <div className="breadcrumb__content p-relative z-index-1">
                      <h3 className="breadcrumb__title">About Us</h3>
                      <div className="breadcrumb__list">
-                        <span><a href="#">Home</a></span>
+                        <span><Link to="/">Home</Link></span>
                         <span className="dvdr"><i className="fa-regular fa-angle-right"></i></span>
                         <span>About-us</span>
                      </div>
@@ -58,10 +58,10 @@ function AboutUs() {
                         </div>
                         <div className="col-lg-3 col-md-4">
                            <div className="tp-cta__btn-wrappper d-flex justify-content-md-end">
-                              <a href="#" className="tp-white-btn">
+                              <Link to="/order" className="tp-white-btn">
                                  <span>Order now</span>
                                  <div className="transition"></div>
-                              </a>
+                              </Link>
                            </div>
                         </div>
                      </div>

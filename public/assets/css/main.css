@@ -9392,8 +9392,8 @@ p.checkout-coupon input[type=text]:focus {
 
 .owl-next span,
 .owl-prev span {
-    background: #000;
-    color: #fff;
+    background: #fff;
+    color: #000;
     height: 37px;
     width: 37px;
     border-radius: 100%;

@@ -90,27 +90,27 @@ function CheeryBye() {
       <div className="mt-5 p-3 counter-back">
             <div className="container">
                 <div className="row mb-4">
-                    <div className="col-lg-3 col-6 my-2 d-flex align-items-center">
+                    <div className="col-lg-3 col-6 my-2 d-flex align-items-center justify-content-center">
                      <img src="assets/img/counter/satish.webp" width="80" alt="Globecont"/>
                         <div className="ms-3">
                             <p className="mb-1 fs-2 fw-bold" id="number1">500K+
 </p><span>Satisfied Students</span>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-6 my-2 d-flex align-items-center">
+                    <div className="col-lg-3 col-6 my-2 d-flex align-items-center justify-content-center">
                      <img src="assets/img/counter/rated.webp" width="80" alt="Campuscont"/>
                         <div className="ms-3">
                             <p className="mb-1 fs-2 fw-bold" id="number2">4.95/5
 </p><span>Rated</span>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-6 my-2 d-flex align-items-center">
+                    <div className="col-lg-3 col-6 my-2 d-flex align-items-center justify-content-center">
                      <img src="assets/img/counter/thumps.webp" width="80" alt="Certificatecont"/>
                         <div className="ms-3">
                             <p className="mb-1 fs-2 fw-bold" id="number3">75</p><span>Reviews</span>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-6 my-2 d-flex align-items-center">
+                    <div className="col-lg-3 col-6 my-2 d-flex align-items-center justify-content-center">
                     
                         <div className="ms-3">
                         <a className="tp-btn" href="/"><span>Order Now<i className="fa-regular fa-arrow-right"></i> </span><div className="transition"></div></a>

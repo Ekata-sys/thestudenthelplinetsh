@@ -1552,8 +1552,8 @@ input[type=color] {
 /*----------------------------------------*/
 @media (max-width: 575px) {
   .breadcrumb__area {
-    padding-top: 150px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 .breadcrumb__title {
@@ -1600,6 +1600,14 @@ input[type=color] {
   margin-bottom: 12px;
 }
 .breadcrumb__list span {
+  font-size: 16px;
+  color: var(--tp-common-white);
+  font-weight: 500;
+  padding-right: 3px;
+  margin-right: 3px;
+  text-transform: capitalize;
+}
+.breadcrumb__list span a{
   font-size: 16px;
   color: var(--tp-common-white);
   font-weight: 500;

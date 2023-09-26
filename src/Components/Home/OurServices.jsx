@@ -46,7 +46,7 @@ function OurServices() {
                                    <button className="nav-link" id="quiz-tab" data-bs-toggle="tab" data-bs-target="#quiz" type="button" role="tab" aria-controls="quiz" aria-selected="false"> <i className="fa-brands fa-teamspeak"></i> <span>Quiz & Exam</span> </button>
                                  </li>
                                  <li className="nav-item" role="presentation">
-                                   <button className="nav-link" id="rstyle" data-bs-toggle="tab" data-bs-target="#quiz" type="button" role="tab" aria-controls="quiz" aria-selected="false"> <i className="fa-brands fa-teamspeak"></i> <span>Referencing Style</span> </button>
+                                   <button className="nav-link" id="rstyle" data-bs-toggle="tab" data-bs-target="#quiz" type="button" role="tab" aria-controls="quiz" aria-selected="false"> <i className="fa-brands fa-teamspeak"></i> <span>Add service</span> </button>
                                  </li>
                                </ul>
                            </div>

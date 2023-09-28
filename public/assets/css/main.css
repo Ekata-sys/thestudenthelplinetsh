@@ -1851,6 +1851,9 @@ box-shadow:  20px 20px 60px #bebebe,
 .tp-header__info ul li a svg path {
   fill: var(--tp-text-4);
 }
+.tp-header__info a{
+  color: inherit;
+}
 .tp-header__border {
   border-bottom: 1px solid rgba(3, 18, 32, 0.07);
 }

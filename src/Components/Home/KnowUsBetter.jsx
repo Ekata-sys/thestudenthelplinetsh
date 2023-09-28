@@ -14,7 +14,7 @@ function KnowUsBetter() {
 <p className="mb-40 text-justify">Claiming oneself unique has become a clich' these days, and so we decided to put forward the list of what we believe to give us a stance out of the crowd! You can decide whether we mean when we say we are undoubtedly one-off, ascertained you will find us beyond unique. You would come across many assignment service providers telling the same. Yes, we do agree there are zillions of copycats in this field, but be assured they can only copy the content, not the ideas! We promise to you, original ideas, and thoughts, for which you hold all the rights of ownership! Isn't it astounding?  </p>
                      
                      <div className="tp-hero__btn-wrappper">
-                        <a href="about-us.html" className="tp-border-btn br-0">
+                        <a href="/about" className="tp-border-btn br-0">
                            <span>ReadMore</span>
                            <div className="transition"></div>
                         </a>

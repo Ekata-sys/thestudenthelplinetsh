@@ -43,7 +43,7 @@ function Hero() {
   return (
     <>
       {/* <!-- hero section  --> */}
-      <div className="tp-hero__section pt-130 pb-150 theme-bg p-relative fix">
+      <div className="tp-hero__section pt-50 pb-150 theme-bg p-relative fix">
          <div className="container">
             <div className="row">
                <div className="col-lg-7">

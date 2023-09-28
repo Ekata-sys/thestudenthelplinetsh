@@ -85,9 +85,8 @@ function Footer() {
                            <Link href="index.html"><img src="assets/img/logo/logo.png" alt="" /></Link>
                         </div>
                         <div className="footer__widget-content">
-                           <p>Aut cum mollitia reprehenderit.
-                              Eos cumque dicta adipisci amet
-                              architecto culpa.</p>
+                        <p><a class="mail-to" href="mailto:info@thestudenthelpline.com">info@thestudenthelpline.com</a></p>
+                        <p><a href="tel:+61488896118">+61 4888 96 118</a></p>
                            <div className="footer__social">
                               <span><Link to="https://www.facebook.com/TheStudentHelpline/"><i className="fab fa-facebook-f"></i></Link></span>
                               <span><Link to="https://www.youtube.com/channel/UCMg7dgCXeYwPsNRCyoYFjlA" className="yt"><i className="fab fa-youtube"></i></Link></span>

@@ -1653,16 +1653,10 @@ input[type=color] {
   font-size: 24px;
   font-weight: 700;
   padding: 20px;
-  /* padding-bottom: 20px; */
   background-color: var(--tp-common-white);
   color: #212121;
   border-radius: 10px 10px 0 0;
-  /* border-radius: 50px;
-background: #e0e0e0;
-box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff; */
-             
-/* background: linear-gradient(145deg, #cacaca, #f0f0f0); */
+
 box-shadow:  20px 20px 60px #bebebe,
              -20px -20px 60px #ffffff;
 }
@@ -1691,9 +1685,7 @@ box-shadow:  20px 20px 60px #bebebe,
     right: 18px;
   }
 }
-/* .tp-custom-accordio .accordion-buttons.collapsed {
-  padding: 40px;
-} */
+
 .tp-custom-accordio .accordion-buttons.collapsed::after {
   content: "\f062";
   color: var(--tp-common-black);
@@ -9329,7 +9321,8 @@ p.checkout-coupon input[type=text]:focus {
 
 
 .benifits {
-  background: #f5f5f5;
+  background-image: linear-gradient(180deg,#f3f2ff,#fdf7f7);
+  /* background: #f5f5f5; */
   padding-left: 93px;
   padding-right: 40px;
   padding-top: 30px;
@@ -9337,7 +9330,7 @@ p.checkout-coupon input[type=text]:focus {
   margin-bottom: 30px;
   height: 86%;
   border-radius: 10px;
-  box-shadow: 0 15px 30px rgb(0 0 0 / 20%);
+  /* box-shadow: 0 15px 30px rgb(0 0 0 / 20%); */
   position: relative;
 }
 .benifits img {
@@ -9362,30 +9355,7 @@ p.checkout-coupon input[type=text]:focus {
 .pad60 {
     padding: 40px 0;
 }
-/* .experties .owl-carousel .owl-item {
-  background: #fff;
-  padding: 20px;
-  padding-top: 60px;
-  box-shadow: 0 15px 30px rgb(159 155 155 / 20%);
-  height: 500px;
-} */
-/* .se-img {
-  width: 107px;
-  height: 107px;
-  margin: auto;
-  text-align: center;
-  display: block !important;
-  background: #fff;
-  border-radius: 100%;
-  line-height: 101px;
-  text-align: center;
-  vertical-align: middle;
-  display: flex !important;
-  position: absolute;
-  top: -60px;
-  left: 0;
-  right: 0;
-} */
+
 .owl-carousel .owl-item img {
   display: block;
   width: auto;
@@ -9402,20 +9372,20 @@ p.checkout-coupon input[type=text]:focus {
 .owl-prev span {
     background: #fff;
     color: #000;
-    height: 37px;
-    width: 37px;
-    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
     display: block;
     font-size: 36px;
     font-weight: 400;
     line-height: 33px;
     position: absolute;
-    right: -45px;
+    right: -54px;
     top: 39%
 }
 
 .owl-prev span {
-    left: -45px;
+    left: -54px;
     right: inherit
 }
 
@@ -9613,17 +9583,28 @@ p.checkout-coupon input[type=text]:focus {
 /* =================== .three_steps end ================== */
 
 .btn-prm {
-  background: #ffc502;
-  height: 42px;
-  text-align: center;
-  display: inline-block;
-  max-width: 122px;
-  line-height: 42px;
+  color: var(--tp-common-white);
+  background-color: var(--tp-theme-primary);
+  max-width: 300px;
   width: 100%;
-  color: #000;
-  font-weight: 500;
   font-size: 14px;
-  border-radius: 5px;
+  font-weight: 500;
+  position: relative;
+  padding: 8px 25px;
+  letter-spacing: -0.02rem;
+  border: 1px solid var(--tp-theme-primary);
+  display: inline-block;
+  border-radius: 6px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.btn-prm:hover{
+  color: var(--tp-common-white);
+  background-color: var(--tp-theme-secondary);
+  border-color: transparent;
 }
 
 .c-card{
@@ -9636,13 +9617,18 @@ p.checkout-coupon input[type=text]:focus {
   justify-content: space-between;
   padding-bottom: 20px;
 }
-
+.c-card img{
+  height: 75px !important;
+  width: 75px ;
+  border-radius: 50%;
+}
 .online-help {
-  background: #0f2e62;
+  background: #a6beeb;
+  /*#0f2e62   */
 }
-.counter-back{
+/* .counter-back{
   background: #ffc502;
-}
+} */
 
 
 
@@ -9880,7 +9866,6 @@ ul {
 }
 
 .tab-secound__cnt .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-
   font-weight: 400;
   border-radius: 0;
   padding: 14px 17px;
@@ -9944,18 +9929,6 @@ span.whatsAppText { float: left; width: 84%; text-align: left; text-align-last: 
 .btnhover:hover .mt_btn_white-bor.on-hover {opacity: 1;transition: all 200ms ease;border: 2px solid #fff;padding: 8px 20px;display: inline-block;border-radius: 5px;}
 .btnhover:hover .mt_btn_white-bor {opacity: 0;}
 
-/* .vtab .nav-pills .nav-link {
-  box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
- 
-} */
-/* .vtab .nav-item{
-margin-left: 2%;
-} */
-/* .pillsback{
-  box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
-  10px 10px 15px rgba(70,70,70,0.12);
-} */
-
 .offer {
   background-color : #000000;
   color: white;
@@ -9971,13 +9944,17 @@ margin-left: 2%;
   z-index: 1;
 }
 .formback{
-  background-color: #fff;
+  background-color: #1b3a70;
   padding: 2rem 3rem;
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
-
-
+.formbackhero{
+  background-color: #2e446c;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 .offer-img{
   height: 80px;
   width: 100px;
@@ -10032,107 +10009,6 @@ margin-left: 2%;
   opacity: 1;
   font-size: 30px !important;
   z-index: 1;
-}
-/* .owl-dots {
-  text-align: center;
-}
-.owl-dots .owl-dot {
-  height: 10px;
-  width: 10px;
-  border-radius: 10px;
-  background: #ccc !important;
-  margin-left: 3px;
-  margin-right: 3px;
-  outline: none;
-}
-.owl-dots .owl-dot.active {
-  background: #f44336 !important;
-} */
-
-.faqback{
-  background-color: #f5f6f7;
-  padding: 1rem 0;
-}
-.faq .faq-list {
-  padding: 0 100px;
-  
-}
-
-.faq .faq-list ul {
-  padding: 0;
-  list-style: none;
-}
-
-.faq .faq-list li+li {
-  margin-top: 15px;
-}
-
-.faq .faq-list li {
-  padding: 20px;
-  background: #fff;
-  border-radius: 4px;
-  position: relative;
-}
-
-.faq .faq-list a {
-  display: block;
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  padding: 0 30px;
-  outline: none;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.faq .faq-list .icon-help {
-  font-size: 24px;
-  position: absolute;
-  right: 0;
-  left: 20px;
-  color: var(--tp-theme-primary);
-}
-
-.faq .faq-list .icon-show,
-.faq .faq-list .icon-close {
-  font-size: 24px;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.faq .faq-list p {
-  margin-bottom: 0;
-  padding: 10px 0 0 0;
-}
-
-.faq .faq-list .icon-show {
-  display: none;
-}
-
-.faq .faq-list a.collapsed {
-  color: #36348d;
-  transition: 0.3s;
-}
-
-.faq .faq-list a.collapsed:hover {
-  color: var(--tp-theme-primary);
-}
-
-.faq .faq-list a.collapsed .icon-show {
-  display: inline-block;
-}
-
-.faq .faq-list a.collapsed .icon-close {
-  display: none;
-}
-
-@media (max-width: 1200px) {
-  .faq .faq-list {
-    padding: 0;
-  }
 }
 
 @media only screen and (max-width: 1650px){

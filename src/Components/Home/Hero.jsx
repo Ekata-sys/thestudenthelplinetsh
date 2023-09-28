@@ -5,11 +5,11 @@ import {Link} from'react-router-dom'
 function Hero() {
     var brand = {
         autoplay: true,
-		autoplaySpeed: 4000,
+		autoplaySpeed: 0,
 		dots: false,
 		arrows: false,
 		infinite: true,
-		speed: 300,
+		speed: 8000,
 		slidesToShow: 6,
       // centerMode: true,
 		slidesToScroll: 1,

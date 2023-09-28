@@ -38,6 +38,7 @@ function App() {
         <Route path="/search" element={<Search/>}/>
         <Route path="/au" element={<HomePageAU/>}/>
         <Route path="/service/:title" element={<Service/>}/>
+        <Route path="/au/:title" element={<Service/>}/>
         <Route path="/assignment/:title" element={<Service/>}/>
         <Route path="/dissertation/:title" element={<Service/>}/>
         <Route path="/quiz/:title" element={<Service/>}/>

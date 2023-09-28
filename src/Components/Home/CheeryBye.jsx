@@ -2,14 +2,9 @@ import React from 'react'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-// import $ from 'jquery';
+
 function CheeryBye() {
-//    function counter(){
-//    $('.counter').counterUp({
-// 		delay: 10,
-// 		time: 1000
-// 	});counter()
-// }
+
    const cherry = {
       loop:true,
       margin:20,
@@ -42,7 +37,7 @@ function CheeryBye() {
 	   <div className="container">
       <div className="text-center mb-4 py-5"><h3 className='text-white'>It Is Time To Say Cheery-bye To Your Citation Difficulties. No More Waiting!</h3></div>
 		   
-	       {/* <div id="owl-demo" className="owl-carousel owl-theme owl2"> */}
+	     
           <OwlCarousel className='owl-theme owl2' {...cherry}>
 			   <div className="item bg1">
 				  <h5>Harvard</h5>

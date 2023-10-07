@@ -24,12 +24,14 @@ function LeftTabsExample() {
         <Col sm={9}>
           <Tab.Content>
             <Tab.Pane eventKey="first"><h4>Management</h4>
-            <ul> 
+          <div className='sample-cat'>
+          <ul> 
 						  							<li><a href="/sample-detail">7MNST004W MSc Project</a></li>
 													
 														
 														
 						  </ul>
+          </div>
             </Tab.Pane>
             <Tab.Pane eventKey="second">Second tab content</Tab.Pane>
           </Tab.Content>

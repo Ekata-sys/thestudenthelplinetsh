@@ -486,6 +486,9 @@ padding: 2rem 1rem;
 
 }
 
+.sample-cat ul li a{
+    text-decoration: underline;
+}
 .sample2 .ord-b h4 {
     text-align: center;
     font-weight: 600;

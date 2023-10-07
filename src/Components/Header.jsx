@@ -193,7 +193,7 @@ function Header() {
                                           <Link to="/reviews">Reviews</Link>
                                        </li>
                                        <li>
-                                          <Link to="/reviews">Sample</Link>
+                                          <Link to="/sample">Sample</Link>
                                        </li>
                                        {/* <li>
                                  <Link to="#" >

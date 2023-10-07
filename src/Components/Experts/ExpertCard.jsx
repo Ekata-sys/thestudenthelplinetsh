@@ -26,17 +26,17 @@ export default function ExpertCard({data}) {
             <hr className='m-0'/>
             <div className="card-footer d-flex justify-content-between">
                 <p className='m-0'>
-                <i class="text-info fa-sharp fa-light fa-location-dot"></i>
+                <i className="text-info fa-sharp fa-light fa-location-dot"></i>
                 <span className='text-secondary'> Location:</span>
                 <span>{data.country}</span>
                 </p>
                 <p className='m-0'>
-                <i class="text-primary fa-sharp fa-solid fa-book"></i>
+                <i className="text-primary fa-sharp fa-solid fa-book"></i>
                 <span className='text-secondary'> Subject:</span>
                 <span>{data.subject}</span>
                 </p>
                 <p className='m-0'>
-                <i class="text-success fa-sharp fa-light fa-shield-check"></i>
+                <i className="text-success fa-sharp fa-light fa-shield-check"></i>
                 <span className='text-secondary'> Completed Orders:</span>
                 <span>{data.orders}</span>
                 </p>

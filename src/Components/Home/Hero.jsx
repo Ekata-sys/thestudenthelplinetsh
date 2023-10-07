@@ -127,7 +127,7 @@ function Hero() {
                               <i className="fas fa-star"></i>
                               <i className="fas fa-star"></i>
                               <i className="fas fa-star"></i>
-                              <i class="fa-regular fa-star-half-stroke"></i>
+                              <i className="fa-regular fa-star-half-stroke"></i>
                            </span>
                            <p>4.5 Star Rating (20+ Review)</p>
                         </div>

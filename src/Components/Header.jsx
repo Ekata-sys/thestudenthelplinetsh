@@ -186,11 +186,14 @@ function Header() {
                                              <li><Link to="/quiz/exam-and-quiz-help">Maths Exam Quiz</Link></li>
                                           </ul>
                                        </li>
-                                       <li>
+                                       {/* <li>
                                           <Link to="/blog">Blog</Link>
-                                       </li>
+                                       </li> */}
                                        <li>
                                           <Link to="/reviews">Reviews</Link>
+                                       </li>
+                                       <li>
+                                          <Link to="/reviews">Sample</Link>
                                        </li>
                                        {/* <li>
                                  <Link to="#" >
@@ -229,13 +232,15 @@ function Header() {
    {/* <!-- header area end --> */}
 
    {/* <div id="offerbutton">
-<button class="offer"> <Link to="#" className="cat-menu d-flex align-items-center">
+<button className="offer"> <Link to="#" className="cat-menu d-flex align-items-center">
                                                 <span><img src={`${process.env.PUBLIC_URL}/assets/img/offer.webp`} alt="logo" />
 </span>
                                              </Link></button>
 </div>   */}
 {/* 
    <!-- offcanvas area start --> */}
+
+   
   <div className="offcanvas__area" >
             <div className="offcanvas__wrapper">
                <div className="offcanvas__content">
@@ -329,6 +334,9 @@ function Header() {
                         </li>
                         <li>
                            <Link to="/reviews" className='nav-toggle-btn'>REVIEWS</Link>
+                        </li>
+                        <li>
+                           <Link to="/sample" className='nav-toggle-btn'>Sample</Link>
                         </li>
                      </ul>
                   </div>

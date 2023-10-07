@@ -46,7 +46,7 @@ function OurServices() {
                                    <button className="nav-link" id="quiz-tab" data-bs-toggle="tab" data-bs-target="#quiz" type="button" role="tab" aria-controls="quiz" aria-selected="false"> <i className="fa-brands fa-teamspeak"></i> <span>Quiz & Exam</span> </button>
                                  </li>
                                  <li className="nav-item" role="presentation">
-                                   <button className="nav-link" id="rstyle" data-bs-toggle="tab" data-bs-target="#quiz" type="button" role="tab" aria-controls="quiz" aria-selected="false"> <i className="fa-brands fa-teamspeak"></i> <span>Add service</span> </button>
+                                   <button className="nav-link" id="rs-tab" data-bs-toggle="tab" data-bs-target="#rstyle" type="button" role="tab" aria-controls="rstyle" aria-selected="false"> <i className="fa-solid fa-file-signature"></i> <span>Refrencing Style Help</span> </button>
                                  </li>
                                </ul>
                            </div>
@@ -121,7 +121,7 @@ function OurServices() {
 					 <p>In this era of online classes and exams, there is a skyrocketing demand for exam help services. Our subject experts are on their toes to take your role, take the test and help you pass the exam meritoriously. How much better that can be! We are sure that you will agree with us when we say certificates matter!</p>                            <div className="text-end text-center py-2">								<Link className="btn-prm" to="/order">Order Now</Link>					</div>
                                </div>
                               </div>
-                              <div className="tab-pane fade" id="rstyle" role="tabpanel" aria-labelledby="quiz-tab">
+                              <div className="tab-pane fade" id="rstyle" role="tabpanel" aria-labelledby="rs-tab">
                                <div>
                                <h3>Refrencing &amp; Style</h3>         
                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>

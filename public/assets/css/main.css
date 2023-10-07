@@ -2148,7 +2148,7 @@ box-shadow:  20px 20px 60px #bebebe,
   position: relative;
   list-style: none;
   display: inline-block;
-  margin-right: 35px;
+  margin-right: 30px;
   text-align: left;
 }
 .tp-header__transparent .main-menu ul li a {
@@ -2276,22 +2276,22 @@ box-shadow:  20px 20px 60px #bebebe,
   position: relative;
   list-style: none;
   display: inline-block;
-  margin-right: 35px;
+  margin-right: 30px;
   text-align: left;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .main-menu ul li {
-    margin-right: 18px;
+    margin-right: 13px;
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .main-menu ul li {
-    margin-right: 16px;
+    margin-right: 11px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .main-menu ul li {
-    margin-right: 14px;
+    margin-right: 9px;
   }
 }
 .main-menu ul li:last-child {
@@ -9335,6 +9335,7 @@ p.checkout-coupon input[type=text]:focus {
   border-radius: 10px;
   /* box-shadow: 0 15px 30px rgb(0 0 0 / 20%); */
   position: relative;
+  animation: fadeIn 1s ease-in both;
 }
 .benifits img {
   position: absolute;
@@ -9343,7 +9344,34 @@ p.checkout-coupon input[type=text]:focus {
   width: 56px;
 }
 
+.benifits:nth-child(2) {
+	animation-delay: 1s;
+}
+.benifits:nth-child(3) {
+	animation-delay: 3s;
+}
+.benifits:nth-child(4) {
+	animation-delay: 5s;
+}
+.benifits:nth-child(5) {
+	animation-delay: 7s;
+}
+.benifits:nth-child(6) {
+	animation-delay: 9s;
+}
 
+
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
 
 
 .experties {
@@ -9627,7 +9655,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 .online-help {
   background: #a6beeb;
-  /*#0f2e62   */
+  background-image: linear-gradient(to right top, #f5999f, #d38eb9, #998cc5, #5589b9, #198197);
 }
 /* .counter-back{
   background: #ffc502;
@@ -9947,7 +9975,14 @@ span.whatsAppText { float: left; width: 84%; text-align: left; text-align-last: 
   z-index: 1;
 }
 .formback{
-  background-color: #1b3a70;
+  /* background-color: #1b3a70; */
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 2rem 3rem;
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -10013,6 +10048,8 @@ span.whatsAppText { float: left; width: 84%; text-align: left; text-align-last: 
   font-size: 30px !important;
   z-index: 1;
 }
+
+
 
 @media only screen and (max-width: 1650px){
 .tp-hero__shapes-6 {

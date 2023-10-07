@@ -21,6 +21,8 @@ import RefundPolicy from './Components/Policy/RefundPolicy';
 import RevisionPolicy from './Components/Policy/RevisionPolicy';
 import TermsAndConditions from './Components/Policy/TermsAndConditions';
 import Experts from './Components/Experts/Experts';
+import Sample from './Components/Sample/Sample';
+import SampleDetail from './Components/Sample/SampleDetail';
 function App() {
   return (
     <>
@@ -38,7 +40,7 @@ function App() {
         <Route path="/search" element={<Search/>}/>
         <Route path="/au" element={<HomePageAU/>}/>
         <Route path="/service/:title" element={<Service/>}/>
-        {/* <Route path="/au/:title" element={<Service/>}/> */}
+        <Route path="/au/:title" element={<Service/>}/>
         <Route path="/assignment/:title" element={<Service/>}/>
         <Route path="/dissertation/:title" element={<Service/>}/>
         <Route path="/quiz/:title" element={<Service/>}/>
@@ -50,6 +52,8 @@ function App() {
         <Route path="/revision-policy" element={<RevisionPolicy/>}/>
         <Route path="/terms-and-conditions" element={<TermsAndConditions/>}/>
         <Route path="/experts" element={<Experts/>}/>
+        <Route path="/sample" element={<Sample/>}/>
+        <Route path="/sample-detail" element={<SampleDetail/>}/>
       </Routes>
       
       <Footer/>

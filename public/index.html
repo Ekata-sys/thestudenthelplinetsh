@@ -252,6 +252,22 @@ $('.tab-title').on('click', function(e) {
 });
 </script>
 
+<script>
+$(function() {
+  $('.pop-up').hide(); 
+  $('.pop-up').fadeIn(1000);
+  
+      $('.close-button').click(function (e) { 
+
+      $('.pop-up').fadeOut(700);
+      $('#overlay').removeClass('blur-in');
+      $('#overlay').addClass('blur-out');
+      e.stopPropagation();
+        
+    });
+ });
+</script>
+
 <script id="chat-init" src="https://cloud.board.support/account/js/init.js?id=507555722"></script>
 
   </body>

@@ -42,8 +42,8 @@ function SubjectExperties() {
           dots:false,
           pagination: false,
           navText: [
-              "<i class='fa fa-angle-left'></i>",
-              "<i class='fa fa-angle-right'></i>"
+              "<i className='fa fa-angle-left'></i>",
+              "<i className='fa fa-angle-right'></i>"
           ],
           responsive:{
               0:{
@@ -66,7 +66,7 @@ function SubjectExperties() {
                 <div className="text-center mb-4 py-5">
                 <h3 className='text-black'>Our Subject Expertise</h3>
                 </div>
-                <div class="slider">
+                <div className="slider">
                 <OwlCarousel className='owl-theme' {...subject}>
                 <div   className="slider-card">
 <span className="se-img"><img src="./assets/img/imgicon/it.webp" alt="It Assignment" /></span>

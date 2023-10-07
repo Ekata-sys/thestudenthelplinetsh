@@ -4,16 +4,16 @@ import { Link } from 'react-router-dom'
 export default function Offer() {
     return (
         <main>
-            <div class="breadcrumb__area include-bg pt-50 pb-50 breadcrumb__overlay"
+            <div className="breadcrumb__area include-bg pt-50 pb-50 breadcrumb__overlay"
                 data-background="assets/img/breadcrumb/breadcrumb-bg.jpg" style={{ backgroundImage: "url(./assets/img/breadcrumb/breadcrumb-bg.jpg)" }}>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xxl-12">
-                            <div class="breadcrumb__content p-relative z-index-1">
-                                <h3 class="breadcrumb__title">Offers</h3>
-                                <div class="breadcrumb__list">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-xxl-12">
+                            <div className="breadcrumb__content p-relative z-index-1">
+                                <h3 className="breadcrumb__title">Offers</h3>
+                                <div className="breadcrumb__list">
                                     <span ><Link className='text-white' to={`${process.env.PUBLIC_URL}/`}>Home</Link></span>
-                                    <span class="dvdr text-white"><i class="fa-regular fa-angle-right"></i></span>
+                                    <span className="dvdr text-white"><i className="fa-regular fa-angle-right"></i></span>
                                     <span>Offers</span>
                                 </div>
                             </div>
@@ -29,12 +29,12 @@ export default function Offer() {
                     <table className='mt-20'>
                         <tbody>
                             <tr>
-                                <td className='fs-5 pe-4 pb-3'><i class="fa-sharp fa-solid fa-book text-success"></i> Turnitin Report</td>
-                                <td className='fs-5 pe-4 pb-3'><i class="fa-solid fa-shield-check text-success"></i> 100% Plagiarism Free</td>
+                                <td className='fs-5 pe-4 pb-3'><i className="fa-sharp fa-solid fa-book text-success"></i> Turnitin Report</td>
+                                <td className='fs-5 pe-4 pb-3'><i className="fa-solid fa-shield-check text-success"></i> 100% Plagiarism Free</td>
                             </tr>
                             <tr>
-                                <td className='fs-5 pe-4 pb-3'><i class="fa-sharp fa-solid fa-eye text-success"></i> Proofreading & Editing</td>
-                                <td className='fs-5 pe-4 pb-3'><i class="fa-sharp fa-solid fa-thumbs-up text-success"></i> A++ Guaranted</td>
+                                <td className='fs-5 pe-4 pb-3'><i className="fa-sharp fa-solid fa-eye text-success"></i> Proofreading & Editing</td>
+                                <td className='fs-5 pe-4 pb-3'><i className="fa-sharp fa-solid fa-thumbs-up text-success"></i> A++ Guaranted</td>
                             </tr>
                         </tbody>
                     </table>
@@ -56,15 +56,15 @@ export default function Offer() {
                             <table className='mt-40'>
                                 <tbody>
                                     <tr>
-                                        <td className='pe-2 align-top fs-6'><i class="fa-sharp fa-light fa-shield-check text-success"></i></td>
+                                        <td className='pe-2 align-top fs-6'><i className="fa-sharp fa-light fa-shield-check text-success"></i></td>
                                         <td className='pb-4'>Gift yourself with free initial 500 words for availing the facility for atleast 2000 words.</td>
                                     </tr>
                                     <tr>
-                                        <td className='pe-2 align-top fs-6'><i class="fa-sharp fa-light fa-shield-check text-success"></i></td>
+                                        <td className='pe-2 align-top fs-6'><i className="fa-sharp fa-light fa-shield-check text-success"></i></td>
                                         <td className='pb-4'>Enjoy $40 Off on availing the service for 2000 or more words.</td>
                                     </tr>
                                     <tr>
-                                        <td className='pe-2 align-top fs-6'><i class="fa-sharp fa-light fa-shield-check text-success"></i></td>
+                                        <td className='pe-2 align-top fs-6'><i className="fa-sharp fa-light fa-shield-check text-success"></i></td>
                                         <td className='pb-4'>Get yourself with 2 assigments of more than 2500 word & second one is 100% off. No payment at all.</td>
                                     </tr>
                                     </tbody>
@@ -85,15 +85,15 @@ export default function Offer() {
                             <table className='mt-40'>
                                 <tbody>
                                     <tr className='mt-4'>
-                                        <td className='pe-2 align-top fs-6'><i class="fa-sharp fa-light fa-shield-check text-success"></i></td>
+                                        <td className='pe-2 align-top fs-6'><i className="fa-sharp fa-light fa-shield-check text-success"></i></td>
                                         <td className='pb-4'>Get 100 words on absolute zero value by ordering for 3000 words.</td>
                                     </tr>
                                     <tr className='mt-4'>
-                                        <td className='pe-2 align-top fs-6'><i class="fa-sharp fa-light fa-shield-check text-success"></i></td>
+                                        <td className='pe-2 align-top fs-6'><i className="fa-sharp fa-light fa-shield-check text-success"></i></td>
                                         <td className='pb-4'>Book 2 assignments for 3000 words each. And the second one is absolutely FREE!</td>
                                     </tr>
                                     <tr className='mt-4'>
-                                        <td className='pe-2 align-top fs-6'><i class="fa-sharp fa-light fa-shield-check text-success"></i></td>
+                                        <td className='pe-2 align-top fs-6'><i className="fa-sharp fa-light fa-shield-check text-success"></i></td>
                                         <td className='pb-4'>Multiple Use Allowed</td>
                                     </tr>
                                     </tbody>
@@ -114,11 +114,11 @@ export default function Offer() {
                             <table className='mt-40'>
                                 <tbody>
                                     <tr className='mt-4'>
-                                        <td className='pe-2 align-top fs-6'><i class="fa-sharp fa-light fa-shield-check text-success"></i></td>
+                                        <td className='pe-2 align-top fs-6'><i className="fa-sharp fa-light fa-shield-check text-success"></i></td>
                                         <td className='pb-4'>Spam us with your work for more than 5000 words and get 50% off..</td>
                                     </tr>
                                     <tr className='mt-4'>
-                                        <td className='pe-2 align-top fs-6'><i class="fa-sharp fa-light fa-shield-check text-success"></i></td>
+                                        <td className='pe-2 align-top fs-6'><i className="fa-sharp fa-light fa-shield-check text-success"></i></td>
                                         <td className='pb-4'>Spam us with your work for more than 5000 words and get 50% off.</td>
                                     </tr>
                                     </tbody>

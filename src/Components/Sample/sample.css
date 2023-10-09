@@ -561,3 +561,28 @@ padding: 2rem 1rem;
     background: #fff9f1;
     margin-bottom: 20px
 }
+
+.cat-list2 {
+    padding: 0;
+}
+.cat-list2 li {
+    border: 1px solid #f16126;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding-left: 80px;
+    position: relative;
+}
+.cat-list2 span {
+    color: #6f6f6f;
+    font-size: 14px;
+    display: block;
+}
+.cat-list2 span.imgb img {
+    width: 54px;
+    left: 10px;
+    height: 54px;
+    border-radius: 100%;
+    object-fit: cover;
+    position: absolute;
+}

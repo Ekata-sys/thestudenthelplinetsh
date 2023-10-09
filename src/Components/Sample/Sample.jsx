@@ -72,7 +72,7 @@ function Sample() {
                                  </div>
 
                                
-                
+                <div className='my-5'>
                                  <div class="row sample2">
 					 <div class="col-sm-6">
 					   <div class="ord-b"> 
@@ -123,6 +123,7 @@ function Sample() {
 						</div>	
 					 </div>
 				  </div>
+          </div>
                 </div>
             </div>
         </div>

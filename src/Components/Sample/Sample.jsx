@@ -3,7 +3,37 @@ import "../Sample/sample.css";
 import Vtab from './Vtab';
 import Form from '../Form';
 import {Link} from 'react-router-dom';
+import { useState } from 'react';
 function Sample() {
+  const [data,setData] = useState([]);
+  let temp;  
+  const [content,setContent] = useState([]);
+  async function getData(){
+    const request = await  fetch("https://thestudenthelpline.io/sample_category_api.php",{
+      method:"GET",
+      headers:{
+        'apitoken':'9667TSH##',
+      }
+    })
+    const response = await request.json();
+    setData(response.Result)
+  }
+
+  async function getContent(){
+    const contentRequest = await  fetch("https://thestudenthelpline.io/api.php",{
+      method:"GET",
+      headers:{
+        'Api-Token':'3773##ssf',
+      }
+    })
+    const contentResponse = await contentRequest.json();
+    setContent(contentResponse.Result)
+  }
+
+  useEffect(()=>{
+    getData()
+    getContent()
+  },"");
   return (
     <>
            
@@ -63,7 +93,7 @@ function Sample() {
             <div className='row'>
                 <div className='col-lg-7'>
                <div>
-               <Vtab />
+               <Vtab data={data} content={content}/>
                </div>
                 </div>
                 <div className="col-xxl-5 col-xl-5 col-lg-5">

@@ -1,8 +1,32 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Form from '../Form';
-import {Link} from 'react-router-dom';
+import {Link, useParams} from 'react-router-dom';
 
 function SampleDetail() {
+	const {url} = useParams();
+	const [data,setData] = useState({
+		Result:[{
+			PageName:"",
+			SampleCodes:"",
+			UniversityName:"",
+			SampleContent:"",
+			CountryCode:""
+		}]
+	});
+
+	async function getApiData(){
+		 const request = await  fetch(`https://thestudenthelpline.io/sample-detail.php?subjectName=${url}`,{
+				method:"GET",
+				headers:{
+				  'Api-Token':'3773##ssf',
+				},
+			  })
+			  const response = await request.json();
+			  setData(response) 
+	}
+	useEffect(()=>{
+		getApiData()
+	},[])
   return (
     <>
 
@@ -12,11 +36,11 @@ function SampleDetail() {
             <div className="row">
                <div className="col-xxl-12">
                   <div className="breadcrumb__content p-relative z-index-1">
-                     <h3 className="breadcrumb__title">7MNST004W MSc Project</h3>
+				  <h3 className="breadcrumb__title">{data.Result[0].PageName}</h3>
                      <div className="breadcrumb__list">
-                        <span><Link to="/">Home</Link></span>
+	                    <span><Link to="/">Home</Link></span>
                         <span className="dvdr"><i className="fa-regular fa-angle-right"></i></span>
-                        <span>7MNST004W MSc Project</span>
+                        <span>{data.Result[0].PageName}</span>
                      </div>
                   </div>
                </div>
@@ -32,27 +56,29 @@ function SampleDetail() {
                 <div class="row">
 				  <div class="col-sm-4">
 				     <div class="in-smp">
-					   <h4>Course Code</h4>
-					   <p>7MNST004W</p>
+					 <h4>Course Code</h4>
+					   <p>{data.Result[0].SampleCodes}</p>
 					 </div>
 				   </div>	
 				   <div class="col-sm-4">
 				    <div class="in-smp">
 					   <h4>University</h4>
-					   <p>University of Westminster</p>
+					   <p>{data.Result[0].UniversityName}</p>
 					</div>
 				   </div>	
 				   <div class="col-sm-4">
 				     <div class="in-smp">
 					   <h4>Country</h4>
-					   <p>UK</p>
+					   <p>{data.Result[0].CountryCode.toUpperCase()}</p>
 					 </div>
 				   </div>	
 			    </div>
 
 
-          <div class="sample-t">		  
-			  <h2>Introduction - 7MNST004W MSc Project</h2>
+          <div class="sample-t">
+		  <div dangerouslySetInnerHTML={{ __html: data.Result[0].SampleContent }} />
+		  
+			  {/* <h2>Introduction - 7MNST004W MSc Project</h2>
 <h3>Background</h3>
 <p>Online teaching refers to imparting knowledge through electronic means. Video conferencing, online seminars, and online chat rooms are just a few of the online tools used to facilitate live instruction. The intention of these digital aids is to streamline the academic process. Online tutoring is another alternative for earning money from home. Since it is simple to launch an online teaching business; many people are giving it a shot to see if they can make some extra cash. According to Phutela and Dwivedi(2020), it can be said that online learning has been well adopted in India. This adoption has been found to be primarily associated with the increase in diversity of students in the education enrollment. The term â€“ â€œE-learningâ€ has been found to be in presence since 1999, at the time when the word was first in a seminar of CBT systems. (Talesra 2020, p87) However, there are also some other words which spring up with online education, one of those words is â€œvirtual learningâ€. The first online education concept has been brought in India during the years 2004 to 2005 (Nisha and Senthil 2015, p86). During this time, the efforts were mainly made by the governmental organizations including MHRD, ISROU and IGNOU. During this process, they start a dual way video communication. In this process, although the process improved, the expected results were not observed much due to the presence of insufficient advancements of technology (Malik and Rana 2020, p404). Online schooling is proving to be a lifeline in times of crisis, such as the current Covid-19 outbreak, which has almost shut down the whole globe.</p>
 <p>The education industry has been severely impacted by the pandemic, which has also hampered the global economy. Millions of students throughout the world have been advised to study online since traditional educational institutions have been shut down indefinitely due to the epidemic(Govindarajan and Srivastava 2020, p6). Due to low network access, it is impossible to hold live sessions and transmit them to children in rural parts of India. Lack of internet network supply is a significant problem even if people in rural regions are learning about and making efforts to acquire new technology like smartphones, laptops, and tablets (Pugalendhi and Mary 2022).Technology has been found to become an integral part of the education system, with a specific introduction of novel age digital platforms which enhances the academic landscape in India. Students, who are at the entry level of education, from professional to pre-K graduate levels, utilize one of more significant means of learning new abilities (Al-Asmari and Rabb Khan 2014, p 2). All students, regardless of their backgrounds, abilities, or learning styles, require equal access to educational technology. Using a platform that incorporates an accessible design from the outset of content production is the most effective technique for establishing a fair technological experience. Under the University Grants Commission (Online Courses), 2018, higher education institutions in India are authorized to provide Certificate, Diploma, and Degree Programs to students entirely online (Govindarajan and Srivastava 2020, p4). By enacting this change, the government has shown that it recognizes the value of online education and is willing to take steps to improve it. Among these specific advances of technology, it has been found that online education has gained significant momentum with its flexibility across edtech companies and several government initiatives. They have been found to make inroads to the education system. Therefore, it can be said that the use of technology and pedagogical evolution in the sector of education, have focused on the market of Indian education. Therefore, it can be stated that Indian education market is the second largest market for e-learning after the United States (US).</p>
@@ -166,7 +192,7 @@ function SampleDetail() {
 <td>MAR4006-N Management Research</td>
 </tr>
 </tbody>
-</table>
+</table> */}
 <br/>		  </div>
 		  
 		  

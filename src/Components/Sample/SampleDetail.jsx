@@ -108,7 +108,7 @@ function SampleDetail() {
   <div className='text-center'>
   <h3>Free Membership To World's <br/>
                      Largest Sample Ban</h3>
-    <p>To View this &amp; another 55555+ free samples.<br/> Please put your valid email id. </p>
+    <p>To View this &amp; another 55555+ free samples.<br/> Please put your valid email id </p>
   </div>
    
 

@@ -82,7 +82,8 @@ function Header() {
                   <div className="container-fluid">
                      <div className="tp-header__container">
                         <div className="row align-items-center">
-                           <div className="col-xxl-5 col-xl-5 col-lg-3 col-md-6 col-6">
+                           {/* <div className="col-xxl-5 col-xl-5 col-lg-3 col-md-6 col-6"> */}
+                           <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-6">
                               <div className="tp-header-left d-flex justify-content-between align-items-center">
                                  <div className="logo">
                                     <Link to={`${process.env.PUBLIC_URL}/`}>
@@ -109,18 +110,19 @@ function Header() {
                                              </ul>
                                           </nav>
                                        </div> */}
-                                       <div className="tp-header__search">
+                                       {/* <div className="tp-header__search">
                                           <form>
                                              <input type="text" placeholder="Search Courses" />
                                              <button><i className="fal fa-search"></i></button>
                                           </form>
-                                       </div>
+                                       </div> */}
                                     </div>
                                  </div>
                               </div>
                            </div>
 
-                           <div className="col-xxl-5 col-xl-5 col-lg-6 d-none d-lg-block">
+                           {/* <div className="col-xxl-5 col-xl-5 col-lg-6 d-none d-lg-block"> */}
+                           <div className="col-xxl-7 col-xl-7 col-lg-6 d-none d-lg-block">
                               <div className="main-menu">
                                  <nav id="mobile-menu">
                                     <ul>
@@ -186,9 +188,9 @@ function Header() {
                                              <li><Link to="/quiz/exam-and-quiz-help">Maths Exam Quiz</Link></li>
                                           </ul>
                                        </li>
-                                       {/* <li>
+                                       <li>
                                           <Link to="/blog">Blog</Link>
-                                       </li> */}
+                                       </li>
                                        <li>
                                           <Link to="/reviews">Reviews</Link>
                                        </li>

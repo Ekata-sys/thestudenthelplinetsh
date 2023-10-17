@@ -53,7 +53,7 @@ function App() {
         <Route path="/terms-and-conditions" element={<TermsAndConditions/>}/>
         <Route path="/experts" element={<Experts/>}/>
         <Route path="/sample" element={<Sample/>}/>
-        <Route path="/sample-detail" element={<SampleDetail/>}/>
+        <Route path="/sample-detail/:url" element={<SampleDetail/>}/>
       </Routes>
       
       <Footer/>

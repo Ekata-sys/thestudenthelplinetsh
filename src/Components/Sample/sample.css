@@ -485,8 +485,15 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, F
 padding: 2rem 1rem;
 
 }
-
+.sample-cat ul li{
+    border-bottom: 2px solid;
+    padding: 1rem;
+}
 .sample-cat ul li a{
+   font-size: 14px;
+   font-weight: 400;}
+
+.sample-cat ul li a:hover{
     text-decoration: underline;
 }
 .sample2 .ord-b h4 {
@@ -585,4 +592,16 @@ padding: 2rem 1rem;
     border-radius: 100%;
     object-fit: cover;
     position: absolute;
+}
+
+.tab-content{
+    background: #ECE9E6;
+    background-image: linear-gradient(180deg,#f3f2ff,#fdf7f7);
+    padding: 2rem 1rem;
+    border-radius: 10px;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-color: black;
+    border-style: solid;
+    border-width: inherit;
 }

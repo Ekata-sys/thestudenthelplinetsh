@@ -41,11 +41,11 @@ function App() {
         <Route path="/au" element={<HomePageAU/>}/>
         <Route path="/service/:title" element={<Service/>}/>
         <Route path="/au/:title" element={<Service/>}/>
-        <Route path="/assignment/:title" element={<Service/>}/>
+        {/* <Route path="/au/assignment/:title" element={<Service/>}/>
         <Route path="/dissertation/:title" element={<Service/>}/>
-        <Route path="/quiz/:title" element={<Service/>}/>
+        <Route path="/quiz/:title" element={<Service/>}/> */}
         <Route path="/offer" element={<Offer/>}/>
-        <Route path="/order" element={<OrderNow/>}/>
+        <Route path="/order-now" element={<OrderNow/>}/>
         <Route path="/faqs" element={<FAQs/>}/>
         <Route path="/privacy-policy" element={<Privacypolicy/>}/>
         <Route path="/refund-policy" element={<RefundPolicy/>}/>

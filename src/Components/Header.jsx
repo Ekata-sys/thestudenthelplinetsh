@@ -129,63 +129,63 @@ function Header() {
                                        <li className="has-dropdown">
                                           <Link to="#">Services</Link>
                                           <ul className="submenu">
-                                             <li><Link to="/service/coursework-help">Coursework Help</Link></li>
-                                             <li><Link to="/service/essay-help">Essay Help</Link></li>
-                                             <li><Link to="/service/thesis-help">Thesis Help</Link></li>
-                                             <li><Link to="/service/case-study-help">Case Study Help</Link></li>
-                                             <li><Link to="/service/referencing-style-help">Referencing Style Help</Link></li>
+                                             <li><Link to="/au/coursework-help">Coursework Help</Link></li>
+                                             <li><Link to="/au/essay-help">Essay Help</Link></li>
+                                             <li><Link to="/au/thesis-help">Thesis Help</Link></li>
+                                             <li><Link to="/au/case-study-help">Case Study Help</Link></li>
+                                             <li><Link to="/au/referencing-style-help">Referencing Style Help</Link></li>
                                              <li><Link to="#">Proofreading Services</Link></li>
                                              <li><Link to="#">Rewrite Services</Link></li>
-                                             <li><Link to="/service/assessment-help">Assessment Help</Link></li>
+                                             <li><Link to="/au/assessment-help">Assessment Help</Link></li>
                                           </ul>
                                        </li>
 
                                        <li className="has-dropdown">
                                           <Link to="#">Assignment</Link>
                                           <ul className="submenu">
-                                             <li><Link to="/assignment/nursing-assignment-help">Nursing Assignment Helper</Link></li>
-                                             <li><Link to="/assignment/management-assignment-help">Management Assignment Helper</Link></li>
-                                             <li><Link to="/assignment/marketing-assignment-help">Marketing Assignment Helper</Link></li>
-                                             <li><Link to="/assignment/programming-assignment-help">Programming Assignment Helper</Link></li>
-                                             <li><Link to="/assignment/finance-assignment-help">Finance Assignment Helper</Link></li>
-                                             <li><Link to="/assignment/accounting-assignment-help">Accounting Assignment Helper</Link></li>
-                                             <li><Link to="/assignment/law-assignment-help">Law Assignment Helper</Link></li>
-                                             <li><Link to="/assignment/information-technology-assignment-help">Computer Science Assignment</Link></li>
-                                             <li><Link to="/assignment/statistics-assignment-help">Statistics Assignment Helper</Link></li>
-                                             <li><Link to="/assignment/engineering-assignment-help">Engineering Assignment Helper</Link></li>
-                                             <li><Link to="/assignment/science-assignment-help">Science Assignment Helper</Link></li>
-                                             <li><Link to="/assignment/tafe-assignment-help">TAFE Assignment Helper</Link></li>
-                                             <li><Link to="/assignment/economics-assignment-help">Economics Assignment Helper</Link></li>
+                                             <li><Link to="/au/nursing-assignment-help">Nursing Assignment Helper</Link></li>
+                                             <li><Link to="/au/management-assignment-help">Management Assignment Helper</Link></li>
+                                             <li><Link to="/au/marketing-assignment-help">Marketing Assignment Helper</Link></li>
+                                             <li><Link to="/au/programming-assignment-help">Programming Assignment Helper</Link></li>
+                                             <li><Link to="/au/finance-assignment-help">Finance Assignment Helper</Link></li>
+                                             <li><Link to="/au/accounting-assignment-help">Accounting Assignment Helper</Link></li>
+                                             <li><Link to="/au/law-assignment-help">Law Assignment Helper</Link></li>
+                                             <li><Link to="/au/information-technology-assignment-help">Computer Science Assignment</Link></li>
+                                             <li><Link to="/au/statistics-assignment-help">Statistics Assignment Helper</Link></li>
+                                             <li><Link to="/au/engineering-assignment-help">Engineering Assignment Helper</Link></li>
+                                             <li><Link to="/au/science-assignment-help">Science Assignment Helper</Link></li>
+                                             <li><Link to="/au/tafe-assignment-help">TAFE Assignment Helper</Link></li>
+                                             <li><Link to="/au/economics-assignment-help">Economics Assignment Helper</Link></li>
                                           </ul>
                                        </li>
                                        <li className="has-dropdown">
                                           <Link to="#">Dissertation</Link>
                                           <ul className="submenu">
-                                             <li><Link to="/dissertation/dissertation-help">Dissertation Proposal</Link></li>
-                                             <li><Link to="/dissertation/dissertation-help">Dissertation Writing</Link></li>
-                                             <li><Link to="/dissertation/dissertation-help">Dissertation Experts</Link></li>
+                                             <li><Link to="/au/dissertation-help">Dissertation Proposal</Link></li>
+                                             <li><Link to="/au/dissertation-help">Dissertation Writing</Link></li>
+                                             <li><Link to="/au/dissertation-help">Dissertation Experts</Link></li>
                                              <li><Link to="/">Research Writing</Link></li>
-                                             <li><Link to="/dissertation/dissertation-help">Dissertation Proofreding</Link></li>
-                                             <li><Link to="/dissertation/thesis-help">Thesis Writing</Link></li>
-                                             <li><Link to="/dissertation/law-assignment-help">Law Dissertation</Link></li>
-                                             <li><Link to="/dissertation/nursing-assignment-help">Nursing Dissertation</Link></li>
-                                             <li><Link to="/dissertation/accounting-assignment-help">Accounting Dissertation</Link></li>
-                                             <li><Link to="/dissertation/finance-assignment-help">Finance Dissertation</Link></li>
-                                             <li><Link to="/dissertation/economics-assignment-help">Economics Dissertation</Link></li>
-                                             <li><Link to="/dissertation/statistics-assignment-help">Statistics Dissertation</Link></li>
-                                             <li><Link to="/dissertation/science-assignment-help">Chemistry Dissertation</Link></li>
+                                             <li><Link to="/au/dissertation-help">Dissertation Proofreding</Link></li>
+                                             <li><Link to="/au/thesis-help">Thesis Writing</Link></li>
+                                             <li><Link to="/au/law-assignment-help">Law Dissertation</Link></li>
+                                             <li><Link to="/au/nursing-assignment-help">Nursing Dissertation</Link></li>
+                                             <li><Link to="/au/accounting-assignment-help">Accounting Dissertation</Link></li>
+                                             <li><Link to="/au/finance-assignment-help">Finance Dissertation</Link></li>
+                                             <li><Link to="/au/economics-assignment-help">Economics Dissertation</Link></li>
+                                             <li><Link to="/au/statistics-assignment-help">Statistics Dissertation</Link></li>
+                                             <li><Link to="/au/science-assignment-help">Chemistry Dissertation</Link></li>
                                           </ul>
                                        </li>
                                        <li className="has-dropdown">
                                           <Link to="#">Exam Quiz</Link>
                                           <ul className="submenu">
-                                             <li><Link to="/quiz/exam-and-quiz-help">Accounting Exam Quiz</Link></li>
-                                             <li><Link to="/quiz/exam-and-quiz-help">Finance Exam Quiz</Link></li>
-                                             <li><Link to="/quiz/exam-and-quiz-help">Statisics Exam Quiz</Link></li>
-                                             <li><Link to="/quiz/exam-and-quiz-help">Economics Exam Quiz</Link></li>
-                                             <li><Link to="/quiz/exam-and-quiz-help">Biology Exam Quiz</Link></li>
-                                             <li><Link to="/quiz/exam-and-quiz-help">History Exam Quiz</Link></li>
-                                             <li><Link to="/quiz/exam-and-quiz-help">Maths Exam Quiz</Link></li>
+                                             <li><Link to="/au/exam-and-quiz-help">Accounting Exam Quiz</Link></li>
+                                             <li><Link to="/au/exam-and-quiz-help">Finance Exam Quiz</Link></li>
+                                             <li><Link to="/au/exam-and-quiz-help">Statisics Exam Quiz</Link></li>
+                                             <li><Link to="/au/exam-and-quiz-help">Economics Exam Quiz</Link></li>
+                                             <li><Link to="/au/exam-and-quiz-help">Biology Exam Quiz</Link></li>
+                                             <li><Link to="/au/exam-and-quiz-help">History Exam Quiz</Link></li>
+                                             <li><Link to="/au/exam-and-quiz-help">Maths Exam Quiz</Link></li>
                                           </ul>
                                        </li>
                                        <li>
@@ -273,62 +273,62 @@ function Header() {
                         <li className='drop-down'>
                            <button type='button' className='nav-toggle-btn plus-icon'>SERVICES</button>
                            <ul className='drop-items'>
-                              <li><Link to="/service/coursework-help">Coursework Help</Link></li>
-                              <li><Link to="/service/essay-help">Essay Help</Link></li>
-                              <li><Link to="/service/thesis-help">Thesis Help</Link></li>
-                              <li><Link to="/service/case-study-help">Case Study Help</Link></li>
-                              <li><Link to="/service/referencing-style-help">Referencing Style Help</Link></li>
+                              <li><Link to="/au/coursework-help">Coursework Help</Link></li>
+                              <li><Link to="/au/essay-help">Essay Help</Link></li>
+                              <li><Link to="/au/thesis-help">Thesis Help</Link></li>
+                              <li><Link to="/au/case-study-help">Case Study Help</Link></li>
+                              <li><Link to="/au/referencing-style-help">Referencing Style Help</Link></li>
                               <li><Link to="#">Proofreading Services</Link></li>
                               <li><Link to="#">Rewrite Services</Link></li>
-                              <li><Link to="/service/assessment-help">Assessment Help</Link></li>
+                              <li><Link to="/au/assessment-help">Assessment Help</Link></li>
                            </ul>
                         </li>
                         <li className='drop-down'>
                            <button type='button' className='nav-toggle-btn plus-icon'>ASSIGNMENTS</button>
                            <ul className='drop-items'>
-                              <li><Link to="/assignment/nursing-assignment-help">Nursing Assignment Helper</Link></li>
-                              <li><Link to="/assignment/management-assignment-help">Management Assignment Helper</Link></li>
-                              <li><Link to="/assignment/marketing-assignment-help">Marketing Assignment Helper</Link></li>
-                              <li><Link to="/assignment/programming-assignment-help">Programming Assignment Helper</Link></li>
-                              <li><Link to="/assignment/finance-assignment-help">Finance Assignment Helper</Link></li>
-                              <li><Link to="/assignment/accounting-assignment-help">Accounting Assignment Helper</Link></li>
-                              <li><Link to="/assignment/law-assignment-help">Law Assignment Helper</Link></li>
-                              <li><Link to="/assignment/information-technology-assignment-help">Computer Science Assignment</Link></li>
-                              <li><Link to="/assignment/statistics-assignment-help">Statistics Assignment Helper</Link></li>
-                              <li><Link to="/assignment/engineering-assignment-help">Engineering Assignment Helper</Link></li>
-                              <li><Link to="/assignment/science-assignment-help">Science Assignment Helper</Link></li>
-                              <li><Link to="/assignment/tafe-assignment-help">TAFE Assignment Helper</Link></li>
-                              <li><Link to="/assignment/economics-assignment-help">Economics Assignment Helper</Link></li>
+                              <li><Link to="/au/nursing-assignment-help">Nursing Assignment Helper</Link></li>
+                              <li><Link to="/au/management-assignment-help">Management Assignment Helper</Link></li>
+                              <li><Link to="/au/marketing-assignment-help">Marketing Assignment Helper</Link></li>
+                              <li><Link to="/au/programming-assignment-help">Programming Assignment Helper</Link></li>
+                              <li><Link to="/au/finance-assignment-help">Finance Assignment Helper</Link></li>
+                              <li><Link to="/au/accounting-assignment-help">Accounting Assignment Helper</Link></li>
+                              <li><Link to="/au/law-assignment-help">Law Assignment Helper</Link></li>
+                              <li><Link to="/au/information-technology-assignment-help">Computer Science Assignment</Link></li>
+                              <li><Link to="/au/statistics-assignment-help">Statistics Assignment Helper</Link></li>
+                              <li><Link to="/au/engineering-assignment-help">Engineering Assignment Helper</Link></li>
+                              <li><Link to="/au/science-assignment-help">Science Assignment Helper</Link></li>
+                              <li><Link to="/au/tafe-assignment-help">TAFE Assignment Helper</Link></li>
+                              <li><Link to="/au/economics-assignment-help">Economics Assignment Helper</Link></li>
                            </ul>
                         </li>
                         <li className='drop-down'>
                            <button type='button' className='nav-toggle-btn plus-icon'>DISSERTATION</button>
                            <ul className='drop-items'>
-                              <li><Link to="/dissertation/dissertation-help">Dissertation Proposal</Link></li>
-                              <li><Link to="/dissertation/dissertation-help">Dissertation Writing</Link></li>
-                              <li><Link to="/dissertation/dissertation-help">Dissertation Experts</Link></li>
+                              <li><Link to="/au/dissertation-help">Dissertation Proposal</Link></li>
+                              <li><Link to="/au/dissertation-help">Dissertation Writing</Link></li>
+                              <li><Link to="/au/dissertation-help">Dissertation Experts</Link></li>
                               <li><Link to="/">Research Writing</Link></li>
-                              <li><Link to="/dissertation/dissertation-help">Dissertation Proofreding</Link></li>
-                              <li><Link to="/dissertation/thesis-help">Thesis Writing</Link></li>
-                              <li><Link to="/dissertation/law-assignment-help">Law Dissertation</Link></li>
-                              <li><Link to="/dissertation/nursing-assignment-help">Nursing Dissertation</Link></li>
-                              <li><Link to="/dissertation/accounting-assignment-help">Accounting Dissertation</Link></li>
-                              <li><Link to="/dissertation/finance-assignment-help">Finance Dissertation</Link></li>
-                              <li><Link to="/dissertation/economics-assignment-help">Economics Dissertation</Link></li>
-                              <li><Link to="/dissertation/statistics-assignment-help">Statistics Dissertation</Link></li>
-                              <li><Link to="/dissertation/science-assignment-help">Chemistry Dissertation</Link></li>
+                              <li><Link to="/au/dissertation-help">Dissertation Proofreding</Link></li>
+                              <li><Link to="/au/thesis-help">Thesis Writing</Link></li>
+                              <li><Link to="/au/law-assignment-help">Law Dissertation</Link></li>
+                              <li><Link to="/au/nursing-assignment-help">Nursing Dissertation</Link></li>
+                              <li><Link to="/au/accounting-assignment-help">Accounting Dissertation</Link></li>
+                              <li><Link to="/au/finance-assignment-help">Finance Dissertation</Link></li>
+                              <li><Link to="/au/economics-assignment-help">Economics Dissertation</Link></li>
+                              <li><Link to="/au/statistics-assignment-help">Statistics Dissertation</Link></li>
+                              <li><Link to="/au/science-assignment-help">Chemistry Dissertation</Link></li>
                            </ul>
                         </li>
                         <li className='drop-down'>
                            <button type='button' className='nav-toggle-btn plus-icon'>EXAM QUIZ</button>
                            <ul className='drop-items'>
-                              <li><Link to="/quiz/exam-and-quiz-help">Accounting Exam Quiz</Link></li>
-                              <li><Link to="/quiz/exam-and-quiz-help">Finance Exam Quiz</Link></li>
-                              <li><Link to="/quiz/exam-and-quiz-help">Statisics Exam Quiz</Link></li>
-                              <li><Link to="/quiz/exam-and-quiz-help">Economics Exam Quiz</Link></li>
-                              <li><Link to="/quiz/exam-and-quiz-help">Biology Exam Quiz</Link></li>
-                              <li><Link to="/quiz/exam-and-quiz-help">History Exam Quiz</Link></li>
-                              <li><Link to="/quiz/exam-and-quiz-help">Maths Exam Quiz</Link></li>
+                              <li><Link to="/au/exam-and-quiz-help">Accounting Exam Quiz</Link></li>
+                              <li><Link to="/au/exam-and-quiz-help">Finance Exam Quiz</Link></li>
+                              <li><Link to="/au/exam-and-quiz-help">Statisics Exam Quiz</Link></li>
+                              <li><Link to="/au/exam-and-quiz-help">Economics Exam Quiz</Link></li>
+                              <li><Link to="/au/exam-and-quiz-help">Biology Exam Quiz</Link></li>
+                              <li><Link to="/au/exam-and-quiz-help">History Exam Quiz</Link></li>
+                              <li><Link to="/au/exam-and-quiz-help">Maths Exam Quiz</Link></li>
                            </ul>
                         </li>
                         <li>

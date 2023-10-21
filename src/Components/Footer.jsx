@@ -39,18 +39,18 @@ function Footer() {
                         <h3 className="footer__widget-title">SERVICES</h3>
                         <div className="footer__widget-content">
                            <ul>
-                           <li><Link to="#">Assignment</Link></li>
-                           <li><Link to="#">Dissertation</Link></li>
-                              <li><Link to="#">Coursework</Link></li>
-                              <li><Link to="#">Homework</Link></li>
-                              <li><Link to="#">Thesis</Link></li>
-                              <li><Link to="#">Essay</Link></li>
-                              <li><Link to="#">Tafe</Link></li>
-                              <li><Link to="#">Proofreading</Link></li>
-                              <li><Link to="#">Case Studies</Link></li>
-                              <li><Link to="#">Research Paper</Link></li>
-                              <li><Link to="#">Referencing</Link></li>
-                              <li><Link to="#">Free Samples</Link></li>
+                           <li><Link to="/">Assignment</Link></li>
+                           <li><Link to="/au/dissertation-help">Dissertation</Link></li>
+                              <li><Link to="/au/coursework-help.php">Coursework</Link></li>
+                              <li><Link to="/">Homework</Link></li>
+                              <li><Link to="/au/thesis-help">Thesis</Link></li>
+                              <li><Link to="/au/essay-help">Essay</Link></li>
+                              <li><Link to="/au/tafe-assignment-help">Tafe</Link></li>
+                              <li><Link to="/">Proofreading</Link></li>
+                              <li><Link to="/au/case-study-help">Case Studies</Link></li>
+                              <li><Link to="/">Research Paper</Link></li>
+                              <li><Link to="/au/referencing-style-help">Referencing</Link></li>
+                              <li><Link to="/sample">Free Samples</Link></li>
                             
                            </ul>
                         </div>
@@ -61,19 +61,19 @@ function Footer() {
                         <h3 className="footer__widget-title">Courses</h3>
                         <div className="footer__widget-content">
                         <ul>
-                           <li><Link to="#">Computer Science</Link></li>
-                           <li><Link to="#">Accounting</Link></li>
-                              <li><Link to="#">Economics</Link></li>
-                              <li><Link to="#">Management</Link></li>
-                              <li><Link to="#">Nursing</Link></li>
-                              <li><Link to="#">Marketing</Link></li>
-                              <li><Link to="#">Finance</Link></li>
-                              <li><Link to="#">Statistics</Link></li>
-                              <li><Link to="#">Law</Link></li>
-                              <li><Link to="#">Information Technology</Link></li>
-                              <li><Link to="#">University</Link></li>
-                              <li><Link to="#">Programming</Link></li>
-                              <li><Link to="#">Engineering</Link></li>
+                           <li><Link to="/au/information-technology-assignment-help">Computer Science</Link></li>
+                           <li><Link to="/au/accounting-assignment-help">Accounting</Link></li>
+                              <li><Link to="/au/economics-assignment-help">Economics</Link></li>
+                              <li><Link to="/au/management-assignment-help">Management</Link></li>
+                              <li><Link to="/au/nursing-assignment-help">Nursing</Link></li>
+                              <li><Link to="/au/marketing-assignment-help">Marketing</Link></li>
+                              <li><Link to="/au/finance-assignment-help">Finance</Link></li>
+                              <li><Link to="/au/statistics-assignment-help">Statistics</Link></li>
+                              <li><Link to="/au/law-assignment-help">Law</Link></li>
+                              <li><Link to="/au/information-technology-assignment-help">Information Technology</Link></li>
+                              <li><Link to="/">University</Link></li>
+                              <li><Link to="/au/programming-assignment-help">Programming</Link></li>
+                              <li><Link to="/au/engineering-assignment-help">Engineering</Link></li>
                            </ul>
                         </div>
                      </div>

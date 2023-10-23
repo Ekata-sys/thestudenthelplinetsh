@@ -9986,6 +9986,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 2rem 3rem;
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin: 2rem 0;
 }
 .formbackhero{
   background-color: #2e446c;
@@ -10096,8 +10097,12 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   flex-wrap: wrap;
   align-items: center;
 }
+
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 380px){
+  .fbanimg{
+    width: 100%;
+  }
 .benifits {
     border-radius: 10px;
 }

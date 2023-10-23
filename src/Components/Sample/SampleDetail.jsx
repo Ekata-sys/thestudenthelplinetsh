@@ -52,7 +52,7 @@ function SampleDetail() {
 		<>
 
 			<div className="breadcrumb__area include-bg pt-50 pb-50 breadcrumb__overlay"
-				data-background="assets/img/breadcrumb/breadcrumb-bg.jpg">
+				data-background="/assets/img/breadcrumb/breadcrumb-bg.jpg">
 				<div className="container">
 					<div className="row">
 						<div className="col-xxl-12">
@@ -104,59 +104,6 @@ function SampleDetail() {
 
 
 
-								<div class="free-mambership" id="mambership">
-
-									<div class="form-section">
-										<h3>Free Membership To World's <br />
-											Largest Sample Bank</h3>
-										<h4>To View this &amp; another 55555+ free samples.<br /> Please put your valid email id.</h4>
-
-
-
-
-
-										<form name="sample_page_form" id="sample_page_form" method="POST">
-
-
-											<div class="row from-main">
-												<div class="col-12 col-sm-12 form-group">
-													<input type="text" id="emailid" placeholder="Email*" name="emailid" class="from-control" autocomplete="off" />
-													<input type="hidden" id="sample_pid" name="sample_pid" value="18" />
-												</div>
-												<div class="col-md-12 row">
-													<div class="captcha-main col-md-12">
-														<span>
-															<img id="captcha" src="https://thestudenthelpline.io/captcha.php" alt='' />
-															{/* <small><Link to="javascript:void(0)" onclick="
-									document.getElementById('captcha').src = 'https://thestudenthelpline.io/captcha.php?' + Math.random();
-									document.getElementById('captcha_code_input').value = '';
-									return false;
-									">refresh</Link></small> */}
-														</span>
-														<span>
-															<input type="text" placeholder="Enter Captcha" size="6" maxlength="5" name="captcha" value="" class="captch from-control" />
-														</span>
-														<p id="alertBoxsd"></p>
-													</div>
-												</div>
-
-
-
-												<div class="col-md-12">
-													<div class="form-group terms-c">
-														<input type="checkbox" checked="" id="tems" name="terms" value="Yes" />
-														<label for="html">Yes, alert me for offers and important updates</label>
-													</div>
-												</div>
-
-												<button class="order-now" type="submit" name="submit" onclick="floatingBtn()">Submit</button>
-
-											</div>
-										</form>
-
-									</div>
-								</div>
-
 
 								<div className='pt-60'>
 									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
@@ -181,8 +128,9 @@ function SampleDetail() {
 									<div className="sample-box small-6 large-centered">
 										<button className="close-button">&#10006;</button>
 										<div className='text-center'>
-											<h3>lorem ipsum</h3>
-											<p>Integer non odio id ante rutrum dictum. Nam ac dapibus felis, at pharetra sapien. </p>
+											<h3>Free Membership To World's <br />
+											Largest Sample Bank</h3>
+											<p>To View this &amp; another 55555+ free samples.<br /> Please put your valid email id.</p>
 										</div>
 
 
@@ -217,11 +165,11 @@ function SampleDetail() {
 							<div class="course__sidebar-widget-2 white-bg mb-20"><div class="course__sidebar-course"><h3 class="course__sidebar-title">Recent Post</h3>
 								<div class="blog-cat2">
 									<ul class="cat-list2">
-										<li><span class="imgb"> <img src="assets/img/sample/FINM4100-assessment-answer.webp" alt='p1' /></span><Link to="https://thestudenthelpline.io/blog/how-to-write-finm4100-assessment-answer.php">How To Write FINM4100 Assessment Answer</Link><span>2023-10-06</span></li>
-										<li><span class="imgb"> <img src="assets/img/sample/Ai-in-Education.webp" alt='p2' /></span><Link to="https://thestudenthelpline.io/blog/role-of-ai-in-education.php">Role Of Ai In Education</Link><span>2023-04-15</span></li>
-										<li><span class="imgb"> <img src="assets/img/sample/Tips-To-Memories-Multiplication-Chart.webp" alt='p3' /></span><Link to="https://thestudenthelpline.io/blog/tips-to-memorize-multiplication-chart.php">Tips To Memorize Multiplication Chart</Link><span>2023-04-10</span></li>
-										<li><span class="imgb"> <img src="assets/img/sample/Excuse-For-Not-Doing-Homework.webp" alt='p4' /></span><Link to="https://thestudenthelpline.io/blog/excuses-for-not-doing-homework.php">Excuses For Not Doing Homework</Link><span>2023-04-10</span></li>
-										<li><span class="imgb"> <img src="assets/img/sample/tips-that-will-help-you-draft-the-best-reflection-paragraphs.webp" alt='p5' /></span><Link to="https://thestudenthelpline.io/blog/tips-that-will-help-you-draft-the-best-reflection-paragraphs.php">Tips That Will Help You Draft The Best Reflection Paragraphs</Link><span>2023-03-25</span></li>
+										<li><span class="imgb"> <img src="/assets/img/sample/FINM4100-assessment-answer.webp" alt='p1' /></span><Link to="https://thestudenthelpline.io/blog/how-to-write-finm4100-assessment-answer.php">How To Write FINM4100 Assessment Answer</Link><span>2023-10-06</span></li>
+										<li><span class="imgb"> <img src="/assets/img/sample/Ai-in-Education.webp" alt='p2' /></span><Link to="https://thestudenthelpline.io/blog/role-of-ai-in-education.php">Role Of Ai In Education</Link><span>2023-04-15</span></li>
+										<li><span class="imgb"> <img src="/assets/img/sample/Tips-To-Memories-Multiplication-Chart.webp" alt='p3' /></span><Link to="https://thestudenthelpline.io/blog/tips-to-memorize-multiplication-chart.php">Tips To Memorize Multiplication Chart</Link><span>2023-04-10</span></li>
+										<li><span class="imgb"> <img src="/assets/img/sample/Excuse-For-Not-Doing-Homework.webp" alt='p4' /></span><Link to="https://thestudenthelpline.io/blog/excuses-for-not-doing-homework.php">Excuses For Not Doing Homework</Link><span>2023-04-10</span></li>
+										<li><span class="imgb"> <img src="/assets/img/sample/tips-that-will-help-you-draft-the-best-reflection-paragraphs.webp" alt='p5' /></span><Link to="https://thestudenthelpline.io/blog/tips-that-will-help-you-draft-the-best-reflection-paragraphs.php">Tips That Will Help You Draft The Best Reflection Paragraphs</Link><span>2023-03-25</span></li>
 									</ul>
 								</div>
 							</div></div>
@@ -229,49 +177,49 @@ function SampleDetail() {
 							<div class="row sample2">
 								<div class="col-sm-6">
 									<div class="ord-b">
-										<img src="assets/img/sample/order-1.webp" alt='' />
+										<img src="/assets/img/sample/order-1.webp" alt='' />
 										<h4>21 Step Quality Check</h4>
 									</div>
 								</div>
 								<div class="col-sm-6">
 									<div class="ord-b">
-										<img src="assets/img/sample/order-2.webp" alt='' />
+										<img src="/assets/img/sample/order-2.webp" alt='' />
 										<h4>2000+ Ph.D Experts</h4>
 									</div>
 								</div>
 								<div class="col-sm-6">
 									<div class="ord-b">
-										<img src="assets/img/sample/order-3.webp" alt='' />
+										<img src="/assets/img/sample/order-3.webp" alt='' />
 										<h4>Earn while you Learn with us</h4>
 									</div>
 								</div>
 								<div class="col-sm-6">
 									<div class="ord-b">
-										<img src="assets/img/sample/order-4.webp" alt='' />
+										<img src="/assets/img/sample/order-4.webp" alt='' />
 										<h4>Confidentiality Agreement</h4>
 									</div>
 								</div>
 								<div class="col-sm-6">
 									<div class="ord-b">
-										<img src="assets/img/sample/order-5.webp" alt='' />
+										<img src="/assets/img/sample/order-5.webp" alt='' />
 										<h4>Live Expert Sessions</h4>
 									</div>
 								</div>
 								<div class="col-sm-6">
 									<div class="ord-b">
-										<img src="assets/img/sample/order-6.webp" alt='' />
+										<img src="/assets/img/sample/order-6.webp" alt='' />
 										<h4>Dedicated App</h4>
 									</div>
 								</div>
 								<div class="col-sm-6">
 									<div class="ord-b">
-										<img src="assets/img/sample/order-7.webp" alt='' />
+										<img src="/assets/img/sample/order-7.webp" alt='' />
 										<h4>Money Back Guarantee</h4>
 									</div>
 								</div>
 								<div class="col-sm-6">
 									<div class="ord-b">
-										<img src="assets/img/sample/order-8.webp" alt='' />
+										<img src="/assets/img/sample/order-8.webp" alt='' />
 										<h4>Customer Feedback</h4>
 									</div>
 								</div>

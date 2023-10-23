@@ -70,7 +70,7 @@ export default function Offer() {
                                     </tbody>
                                 </table>
                                 <div className='text-center mb-4 position-relative' style={{bottom:"0"}}>
-                                <Link className='btn btn-outline-success' to={`${process.env.PUBLIC_URL}/order`}>Redeem Now</Link>
+                                <Link className='btn btn-outline-success' to={`${process.env.PUBLIC_URL}/order-now`}>Redeem Now</Link>
                             </div>
                             </div>
                         </div>
@@ -99,7 +99,7 @@ export default function Offer() {
                                     </tbody>
                                 </table>
                                 <div className='text-center mb-4 position-absolute' style={{bottom:"0",left:"50%",transform:"translate(-50%)"}} >
-                                <Link className='btn btn-outline-info' to={`${process.env.PUBLIC_URL}/order`}>Redeem Now</Link>
+                                <Link className='btn btn-outline-info' to={`${process.env.PUBLIC_URL}/order-now`}>Redeem Now</Link>
                             </div>
                             </div>  
                         </div>
@@ -124,7 +124,7 @@ export default function Offer() {
                                     </tbody>
                                 </table>
                                 <div className='text-center mb-4 position-absolute' style={{bottom:"0",left:"50%",transform:"translate(-50%)"}}>
-                                <Link className='btn btn-outline-warning' to={`${process.env.PUBLIC_URL}/order`}>Redeem Now</Link>
+                                <Link className='btn btn-outline-warning' to={`${process.env.PUBLIC_URL}/order-now`}>Redeem Now</Link>
                             </div>
                             </div>   
                         </div>
@@ -138,7 +138,7 @@ export default function Offer() {
                             <div className="dotted-border rounded p-3">
                                 <h3 className='text-danger'>10% Off</h3>
                                 <p>Book Now and Get 10% Off on Next Order Hurry Now!!</p>
-                                <Link className='btn btn-warning text-center' to={`${process.env.PUBLIC_URL}/order`}>Grab It Now</Link>
+                                <Link className='btn btn-warning text-center' to={`${process.env.PUBLIC_URL}/order-now`}>Grab It Now</Link>
                             </div>
                         </div> 
                     </div>
@@ -147,7 +147,7 @@ export default function Offer() {
                             <div className="dotted-border rounded p-3">
                                 <h3 className='text-danger'>15% Off</h3>
                                 <p>Order Your First Assignment & Get 500 Words Free</p>
-                                <Link className='btn btn-warning text-center' to={`${process.env.PUBLIC_URL}/order`}>Grab It Now</Link>
+                                <Link className='btn btn-warning text-center' to={`${process.env.PUBLIC_URL}/order-now`}>Grab It Now</Link>
                             </div>
                         </div>
                     </div>
@@ -156,7 +156,7 @@ export default function Offer() {
                             <div className="dotted-border rounded p-3">
                                 <h3 className='text-danger'>100% Off</h3>
                                 <p>Book 5 Copies of an Assignment and Get 1 Absolutely Free</p>
-                                <Link className='btn btn-warning text-center' to={`${process.env.PUBLIC_URL}/order`}>Grab It Now</Link>
+                                <Link className='btn btn-warning text-center' to={`${process.env.PUBLIC_URL}/order-now`}>Grab It Now</Link>
                             </div>
                         </div>
                     </div>
@@ -165,7 +165,7 @@ export default function Offer() {
                             <div className="dotted-border rounded p-3">
                                 <h3 className='text-danger'>50% Off</h3>
                                 <p>Book 5 Copies of an Assignment and Get 1 Absolutely Free</p>
-                                <Link className='btn btn-warning text-center' to={`${process.env.PUBLIC_URL}/order`}>Grab It Now</Link>
+                                <Link className='btn btn-warning text-center' to={`${process.env.PUBLIC_URL}/order-now`}>Grab It Now</Link>
                             </div>
                         </div>
                     </div>

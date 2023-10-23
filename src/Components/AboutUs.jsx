@@ -58,7 +58,7 @@ function AboutUs() {
                         </div>
                         <div className="col-lg-3 col-md-4">
                            <div className="tp-cta__btn-wrappper d-flex justify-content-md-end">
-                              <Link to="/order" className="tp-white-btn">
+                              <Link to="/order-now" className="tp-white-btn">
                                  <span>Order now</span>
                                  <div className="transition"></div>
                               </Link>

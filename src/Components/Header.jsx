@@ -209,7 +209,7 @@ function Header() {
                            <div className="col-xxl-2 col-xl-2 col-lg-3 col-md-6 col-6">
                               <div className="tp-header__main-right d-flex justify-content-end align-items-center">
                                  <div className="header-acttion-btns d-flex align-items-center d-none d-md-flex">
-                                    <Link to="/order" className="tp-btn">
+                                    <Link to="/order-now" className="tp-btn">
                                        <span>Order Now<i className="fa-regular fa-arrow-right"></i> </span>
                                        <div className="transition"></div>
                                     </Link>

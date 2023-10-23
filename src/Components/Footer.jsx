@@ -27,7 +27,7 @@ function Footer() {
                               <li><Link to="/refund-policy">Refund Policy</Link></li>
                               <li><Link to="/revision-policy">Revision Policy</Link></li>
                               <li><Link to="/terms-and-conditions">Terms & Conditions</Link></li>
-                              <li><Link to="/order">Order Now</Link></li>
+                              <li><Link to="/order-now">Order Now</Link></li>
                               <li><Link to="/offer">Our Offers</Link></li>
                               <li><Link to="/experts">Experts</Link></li>
                            </ul>

@@ -375,5 +375,9 @@ padding: 2rem 1rem;
 tbody, td, tfoot, th, thead, tr {
     border-color: black;
     border-style: solid;
-    border-width: inherit;
+    /* border-width: inherit; */
+}
+.table>:not(caption)>*>*{
+    border-width: 1px !important;
+  
 }

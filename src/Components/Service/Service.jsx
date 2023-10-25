@@ -70,6 +70,8 @@ export default function Service() {
                         <div className="breadcrumb__list">
                            <span><Link to={`${process.env.PUBLIC_URL}/`} className='text-white'>Home </Link></span>
                            <span className="dvdr"><i className="fa-regular fa-angle-right"></i></span>
+                           <span><Link to="/au">Australia</Link></span>
+                           <span className="dvdr"><i className="fa-regular fa-angle-right"></i></span>
                            <span>{a.service_page_url}</span>
                         </div>
                      </div>
@@ -82,7 +84,7 @@ export default function Service() {
                <div className="course-details__header">
                   <div className="container">
                      <div className="row">
-                        <div className="col-lg-7">
+                        <div className="col-xxl-7 col-xl-7 col-lg-7">
                            <div className="course-details__content">
                               <div dangerouslySetInnerHTML={{ __html: a.service_content }} />
                            </div>

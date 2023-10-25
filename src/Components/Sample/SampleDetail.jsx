@@ -61,6 +61,8 @@ function SampleDetail() {
 								<div className="breadcrumb__list">
 									<span><Link to="/">Home</Link></span>
 									<span className="dvdr"><i className="fa-regular fa-angle-right"></i></span>
+                           <span><Link to="/au">Australia</Link></span>
+									<span className="dvdr"><i className="fa-regular fa-angle-right"></i></span>
 									<span>{data.Result[0].PageName}</span>
 								</div>
 							</div>
@@ -69,10 +71,14 @@ function SampleDetail() {
 				</div>
 			</div>
 
+	
+
+
 			<section className='pt-50 pb-50'>
 				<div className='container'>
+					
 					<div className='row'>
-						<div className='col-lg-7'>
+						<div className='col-xxl-7 col-xl-7 col-lg-7'>
 							<div className='position-relative'>
 								<div class="row">
 									<div class="col-sm-4">
@@ -104,11 +110,28 @@ function SampleDetail() {
 
 
 
+									<div class="container mt-3">
 
-								<div className='pt-60'>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-								</div>
-								<div id="overlay" className="cover blur-in">
+  
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+  Answer
+  </button>
+</div>
+
+
+<div class="modal" id="myModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+     
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      
+      <div class="modal-body">
+      <div id="overlay" className="cover blur-in">
 									<div className="content">
 										<h1>The history or Lorem Ipsum</h1>
 										<span>
@@ -126,7 +149,7 @@ function SampleDetail() {
 								</div>
 								<div className="row pop-up">
 									<div className="sample-box small-6 large-centered">
-										<button className="close-button">&#10006;</button>
+										{/* <button className="close-button">&#10006;</button> */}
 										<div className='text-center'>
 											<h3>Free Membership To World's <br />
 											Largest Sample Bank</h3>
@@ -137,17 +160,17 @@ function SampleDetail() {
 										<form onSubmit={handleSubmit}>
 											<div className="mb-3">
 												<label for="name" className="form-label">Name</label>
-												<input type="text" name="full_name" className="form-control" id="name" value={formData.full_name} onChange={(e) => setFormData({ ...formData, full_name: e.target.value })} />
+												<input type="text" name="full_name" className="form-control" id="name" value={formData.full_name} onChange={(e) => setFormData({ ...formData, full_name: e.target.value })} required/>
 											</div>
 											<div className="mb-3">
 												<label for="email" className="form-label">Email</label>
 												<input type="email" name="email" className="form-control" id="exampleInputEmail1" value={formData.email}
-													onChange={(e) => setFormData({ ...formData, email: e.target.value })} />
+													onChange={(e) => setFormData({ ...formData, email: e.target.value })} required/>
 											</div>
 											<div className="mb-3">
 												<label for="phone" className="form-label">Phone Number</label>
 												<input type="number" name="mobile" className="form-control" id="phone" value={formData.mobile}
-													onChange={(e) => setFormData({ ...formData, mobile: e.target.value })} />
+													onChange={(e) => setFormData({ ...formData, mobile: e.target.value })} required/>
 											</div>
 											<div className='text-center'>
 												<button type="submit" className="btn btn-primary button">Submit</button>
@@ -155,9 +178,21 @@ function SampleDetail() {
 										</form>
 									</div>
 								</div>
+      </div>
+
+    
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+								
 							</div>
 						</div>
 						<div className="col-xxl-5 col-xl-5 col-lg-5">
+							<div className='course__sidebar pl-70'>
 							<div className='formback'>
 								<Form />
 							</div>
@@ -223,6 +258,7 @@ function SampleDetail() {
 										<h4>Customer Feedback</h4>
 									</div>
 								</div>
+							</div>
 							</div>
 						</div>
 					</div>

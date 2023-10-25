@@ -10,6 +10,10 @@ function Hero() {
                   <div>
                   <img src='./assets/img/au/country-banner.webp' className='fbanimg' alt='banner'/>
                   </div>
+                  <div className='pt-30'>
+                  <h1 className='text-white'>Need Help with Assignment?</h1>
+<h3 className='text-white'>Get Online Assignment Help @50% OFF!</h3>
+                  </div>
                   {/* <div className="tp-hero__content pt-200">
                      <span className="tp-hero__subtitle text-white mb-10">Education Goal</span>
                      <h3 className="tp-hero__title text-white mb-15">Free online courses

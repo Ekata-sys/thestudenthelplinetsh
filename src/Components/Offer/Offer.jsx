@@ -14,6 +14,8 @@ export default function Offer() {
                                 <div className="breadcrumb__list">
                                     <span ><Link className='text-white' to={`${process.env.PUBLIC_URL}/`}>Home</Link></span>
                                     <span className="dvdr text-white"><i className="fa-regular fa-angle-right"></i></span>
+                                    <span><Link className='text-white' to='/au'>Australia</Link></span>
+                                    <span className="dvdr text-white"><i className="fa-regular fa-angle-right"></i></span>
                                     <span>Offers</span>
                                 </div>
                             </div>

@@ -83,7 +83,7 @@ function Review() {
   return (
     <section className="feedback pt-5 pb-100">
 	   <div className="container">
-	   <div className='text-center pb-50'>
+	   <div className='text-center pt-50 pb-50'>
        <h3>A Glimpse To TheStudentHelpline Evaluation Done By You</h3>
        </div>
 	       {/* <div id="owl-demo" className="owl-carousel owl-theme owl3"> */}

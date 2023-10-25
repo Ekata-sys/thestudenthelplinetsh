@@ -1,5 +1,9 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+import React from 'react';
+import {Link} from 'react-router-dom';
+import Col from 'react-bootstrap/Col';
+import Nav from 'react-bootstrap/Nav';
+import Row from 'react-bootstrap/Row';
+import Tab from 'react-bootstrap/Tab';
 
 function VTab() {
   return (
@@ -8,7 +12,7 @@ function VTab() {
 <>
 <section className='tab-secound__cnt pt-120 pb-90'>
         <div className='container'>
-        <div className="d-flex align-items-start pillsback">
+        {/* <div className="d-flex align-items-start pillsback">
   <div className="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
     <button className="nav-link active" id="v-pills-p1-tab" data-bs-toggle="pill" data-bs-target="#v-pills-p1" type="button" role="tab" aria-controls="v-pills-p1" aria-selected="true">University Assignment Help Online With 8-Step Quality Check</button>
     <button className="nav-link" id="v-pills-p2-tab" data-bs-toggle="pill" data-bs-target="#v-pills-p2" type="button" role="tab" aria-controls="v-pills-p2" aria-selected="false">How is student helpline better than other writing services?</button>
@@ -125,9 +129,100 @@ function VTab() {
 <p>Contact us and let us work together to make sure that you achieve academic success. </p></div>
     </div>
   </div>
-</div>
+</div> */}
+
+<Tab.Container id="left-tabs-example" defaultActiveKey="first">
+      <Row>
+        <Col sm={6}>
+          <Nav variant="pills" className="flex-column">
+            <Nav.Item>
+              <Nav.Link eventKey="first">What is Assignment Help?</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="second">5 Reasons To Choose The Student Helpline For Assignment Help Australia</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="third">Why We Are The Best Assignment Help In The Industry?</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="forth">4 Key Features of Our University Assignment Help</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="fifth">Comprehensive Assignment Writing Services for University Students</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="sixth">Get Online Assignment Help Across All States &amp; Territories of Australia</Nav.Link>
+            </Nav.Item>
+          </Nav>
+        </Col>
+        <Col sm={6}>
+          <Tab.Content>
+            <Tab.Pane eventKey="first">
+              <div>
+              <p>Assignment help can be referred as the guidance offered to students to accomplish their academic tasks, projects or coursework. Our assignment help comes in various forms, including:</p>
+<p><b>Online Tutoring</b>: Our assignment help involves one-on-one tutoring sessions where students can have live and recorded video sessions with the assignment experts to receive assistance and clarification on the concepts or questions related to their assignments.</p>
+<p><b>Help With Assignment Writing</b>: Students struggling to write their assignments, reports, case studies, dissertations, essays or any kind of academic writing task can take assistance of our assignment writers to flawlessly complete their assignments.</p>
+<p><b>Editing and Proofreading</b>: Students looking to get their assignments edited and proofread in order to improvise its quality can get their assignments reviewed by seasoned assignment experts by taking our editing and proofreading services. </p>
+<p>Our assignment help aims to help students efficiently manage their time to meet the deadlines and avoid last hour rush.</p>
+              </div>
+            </Tab.Pane>
+            <Tab.Pane eventKey="second">
+              <div><p><b>85,000 + Assignments Delivered</b></p>
+<p>With over 85,000 assignments completed and handed in to students thanks to our assignment help Australia, we are incredibly proud of this remarkable achievement. This accomplishment highlights our dedication to academic excellence and our commitment to helping students succeed in their educational endeavors.</p>
+<p><b>79,000 + Happy Clients</b></p>
+<p>Our dedication to excellence is evident in our track record of 79,000+ satisfied customers. Our standing as a reliable online assignment help has been established by our persistent commitment to client satisfaction.</p>
+<p><b>97.28% Recurring Clients</b></p>
+<p>Our unwavering dedication to providing the best assignment help is best demonstrated by the impressive 97.28% of returning customers. Their steadfast allegiance serves as further proof of our excellence, and credibility. We will keep offering excellent help with assignment while making sure client satisfaction stays our top priority.</p>
+<p><b>9.84/10 Client Rating</b></p>
+<p>Our astounding 9.84/10 client rating speaks volumes about the overwhelming faith our clients have in us. This outstanding result demonstrates our commitment to excellence and our determination to consistently outperform client expectations.</p>
+<p><b>5000 + PhD Experts</b></p>
+<p>With more than 5000 PhD assignment experts on our team, we are able to produce assignments of the highest quality. Their extensive expertise and commitment ensure that every assignment they craft is completed with accuracy and excellence, ensuring our clients' maximum academic success.</p></div>
+            </Tab.Pane>
+            <Tab.Pane eventKey="third">
+              <div>
+              <p>When it pertains to taking the best assignment help, The Student Helpline is the apparent choice. Several strong rationales including Site Jabber, Trustpilot, Yellow Pages ranking positions us as the best university assignment help website, with an unwavering commitment to perfection and an impeccable success record. It is because as we offer:</p>
+<p><b>Sub-par Subject Expertise</b>: We have team assignment helpers who are seasoned professionals in a wide range of subjects. Their wealth of expertise and experience guarantees that every help with assignment is ensured with meticulous attention to detail.</p>
+<p><b>Unparalleled Quality Assurance</b>: We take pleasure in offering assignment help that is nothing less than exceptional. Our assignment writers strictly adhere to the university guidelines, performing extensive research and providing well-organized, well-referenced assignments.</p>
+<p><b>Custom Assignment Help</b>: Since we understand that each assignment is unique, we offer custom assignment help. Our personalized and urgent assignment help takes into account the particular needs and expectations of each student.</p>
+<p><b>Premium Assignment Help</b>: We believe that everyone should have access to excellent assignment help. Students can get high-quality assignment help online from us online for a reasonable price.</p>
+<p><b>Seamless Customer Help</b>: Our assignment help online is accessible 24*7 and is a lifesaver for students seeking help with assignment at any time of the day.</p>
+              </div>
+            </Tab.Pane>
+            <Tab.Pane eventKey="forth">
+              <div>
+              <p>Assignment help can be referred as the guidance offered to students to accomplish their academic tasks, projects or coursework. Our assignment help comes in various forms, including:</p>
+<p><b>Online Tutoring</b>: Our assignment help involves one-on-one tutoring sessions where students can have live and recorded video sessions with the assignment experts to receive assistance and clarification on the concepts or questions related to their assignments.</p>
+<p><b>Help With Assignment Writing</b>: Students struggling to write their assignments, reports, case studies, dissertations, essays or any kind of academic writing task can take assistance of our assignment writers to flawlessly complete their assignments.</p>
+<p><b>Editing and Proofreading</b>: Students looking to get their assignments edited and proofread in order to improvise its quality can get their assignments reviewed by seasoned assignment experts by taking our editing and proofreading services. </p>
+<p>Our assignment help aims to help students efficiently manage their time to meet the deadlines and avoid last hour rush.</p>
+              </div>
+            </Tab.Pane>
+            <Tab.Pane eventKey="fifth">
+              <div>
+              <p><strong>Assignment Help</strong>: Looking for someone to do my assignment? Worried about meeting your assignment deadlines? Our assignment help service is there to assist you. Our assignment experts recognize the academic stress and ensure to deliver your assignments timely with high quality. With our assignment help service, you can balance your personal and academic life stress-free.</p>
+<p><strong>Coursework Help</strong>: Our <a href="https://thestudenthelpline.io/au/coursework-help.php">coursework help</a> service delivers comprehensive support for those in need of academic guidance. With the help of our coursework writers, coupled with their expertise, we provide help at every stage of your academic pathway. From research to formatting, we employ an extensive strategy to guarantee your coursework achieves the highest standards.</p>
+<p><strong>Homework Help</strong>: Our extensive homework help service provides assistance with a wide range of subjects ranging from arts to programming. With the help of our dedicated homework help writers, we ensure students receive the best homework help not only in writing but also in enhancing their skills. We are delighted to provide help with homework, whether it be report writing, essays, case studies, assignments, etc.</p>
+<p><strong>Essay Writing Service</strong>: Our essay writing help team is well-versed in crafting different kinds of essays, such as descriptive, persuasive, argumentative, narrative, etc. With our custom essay help, we provide tailored <a href="https://thestudenthelpline.io/au/essay-help.php">essay help</a> that ensure high grades with top-notch quality and authenticity.</p>
+<p><strong>University Assignment Help</strong>: Our university assignment help inculcate team of PhD-level writers who possess expertise in writing high-quality assignments. With our commitment to provide best university assignment help, our primary focus is inclined towards well-researched and well-structured university assignments, You can rely on our committed team of pros to ensure that your university-level assignments are well-researched, excellently written, and customized to meet the highest academic standards.</p>
+              </div>
+            </Tab.Pane>
+            <Tab.Pane eventKey="sixth">
+              <div>
+              <p><strong>Assignment Help Adelaide</strong>: Your academic ally in South Australia, our Assignment Help in Adelaide supports students at all of Adelaide's top universities and colleges, including The University of Adelaide, University of South Australia, Flinders University, Torrens University, Kathleen Lumley College, Adelaide College of Divinity, and others. With timely, low-cost delivery of assignments that are 100% free of plagiarism, our skilled assignment writers offer individualized support to help you succeed in your studies. Count on us to guide you through academic hurdles.</p>
+<p><strong>Assignment Help Brisbane</strong>: Brisbane's academic sphere is a vibrant blend of innovation and excellence, offering students a dynamic learning environment. At Assignment Help Brisbane, we're committed to enhancing this experience by providing online assignment help. Our services cater to students from esteemed institutions like The University of Queensland, QUT Gardens Point Campus, Griffith University, etc., ensuring their academic success.</p>
+<p><strong>Assignment Help Melbourne</strong>: Melbourne's educational prowess shines through institutions like The University of Melbourne, RMIT University, Monash University, Victoria University's, La Trobe University, etc. Known for their academic excellence, these universities attract students from all corners of the globe. Our assignment help in Melbourne proudly supports their educational journeys, reinforcing Melbourne's status as a premier study destination.</p>
+<p><strong>Assignment Help Perth</strong>: Perth attracts students from all over the world due to its beautiful landscapes and world-class universities such as the University of Western Australia and Curtin University. Our Assignment Help Perth services enrich this experience by giving students complete help to ensure academic excellence in this lively and culturally varied city.</p>
+<p><strong>Assignment Help Sydney</strong>: Our online assignment help in Sydney is your academic lifeline in a city celebrated for its world-class education. Sydney boasts prestigious institutions like the University of Sydney, University of New South Wales (UNSW), and Macquarie University, drawing students from across the globe. Our help with assignment services are tailored to assist students in excelling at these esteemed universities, ensuring academic excellence in the vibrant heart of Australia.</p>
+              </div>
+            </Tab.Pane>
+          </Tab.Content>
+        </Col>
+      </Row>
+    </Tab.Container>
+
         </div>
     </section>
+
 
     
 </>

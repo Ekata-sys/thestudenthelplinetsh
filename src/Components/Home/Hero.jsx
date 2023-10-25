@@ -47,8 +47,13 @@ function Hero() {
          <div className="container">
             <div className="row">
                <div className="col-lg-7">
+              
                   <div>
                   <img src='./assets/img/banner-img.webp' className='fbanimg' alt='banner'/>
+                  </div>
+                  <div className='pt-30'>
+                  <h1 className='text-white'>Hire no.1 Premium Writing Services Online</h1>
+<h3 className='text-white'>High Grades Guaranteed Or Your Money Back!!</h3>
                   </div>
                   {/* <div className="tp-hero__content pt-200">
                      <span className="tp-hero__subtitle text-white mb-10">Education Goal</span>
@@ -75,10 +80,11 @@ function Hero() {
                   </div> */}
                </div>
                <div className="col-lg-5">
+             
                   <div className="formback">
-                   
+                  <Form/>
                      <div>
-                <Form/>
+            
                 <br/>
               </div>
                   </div>

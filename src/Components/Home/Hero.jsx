@@ -51,8 +51,8 @@ function Hero() {
                   <div>
                   <img src='./assets/img/banner-img.webp' className='fbanimg' alt='banner'/>
                   </div>
-                  <div className='pt-30'>
-                  <h1 className='text-white'>Hire no.1 Premium Writing Services Online</h1>
+                  <div className='pt-10'>
+                  <h1 className='text-white'>Hire no.1 Premium Writing <br/> Services Online</h1>
 <h3 className='text-white'>High Grades Guaranteed Or Your Money Back!!</h3>
                   </div>
                   {/* <div className="tp-hero__content pt-200">

@@ -68,7 +68,7 @@ function Review() {
             id:6,
             name:"Jack M",
             review:"I am engaged in completing a group project with my friends regarding physics. The authors of TSH have been of great help to us in solving difficult numerical and other problems to simplify our project. I recommend these services to all students to get hel",
-            profile:"jack",
+            profile:"Jack",
             orderCode:"TSH01533"
         },
         {
